@@ -84,7 +84,7 @@ https://stranger-team-project-22v4.vercel.app/
 
 ## Link
 
-https://stranger-team-project-22v4.vercel.app/
+https://stranger-team-pay-api-project.vercel.app/
 
 ## Licence
 
