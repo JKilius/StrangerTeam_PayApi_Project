@@ -70,7 +70,8 @@ npm install
 npm start
 
 # application will open on your browser at
-https://stranger-team-project-22v4.vercel.app/
+https://stranger-team-pay-api-project.vercel.app/
+
 
 ```
 
