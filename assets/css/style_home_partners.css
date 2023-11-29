@@ -1,5 +1,7 @@
-
-@media (min-width: 769px) {
+body {
+  margin: 0;
+}
+@media (min-width: 1440px) {
 
     .partner-button {
       color: var(--LinkWaterWhite);
@@ -56,6 +58,7 @@
       line-height: 56px; /* 116.667% */
       letter-spacing: -0.369px;
       text-align: left;
+      margin-top: -15px;
      }
      .partner-small {
       width: 445px;
@@ -122,13 +125,18 @@
       grid-template-columns: 230px 230px 230px;
       position: absolute;
       padding: 185px 163px 184px 741px;
+      margin-top: -30px;
+      margin-left: -50px;
     }
   
     .partners {
+      width: 1440px;
+      height: 472px;
       background-color: var(--MirageBlue);
+      
     }
   }
-  @media (min-width: 376px) and (max-width: 768px) {
+  @media (min-width: 768px) and (max-width: 1439px) {
     .partner-button {
       color: var(--LinkWaterWhite);
       text-align: center;
@@ -172,15 +180,17 @@
       line-height: 28px; /* 186.667% */ 
      }
      .text-partner-container {
-      width: 50%;
-      flex-shrink: 0;
       text-align: center;
-      margin: 255px 0px 88px 0px;
-      padding-left: 25%;
-      position: absolute;
-  
+      margin-right: 155px;
+      margin-left: 157px;
      }
-  
+    .partner-container-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      justify-items: center;
+      align-items: center;
+      padding-top: 70px;
+    }
     .Tesla {
       width: 129px;
       height: 17px;
@@ -212,23 +222,11 @@
       padding-bottom: 20px;
       flex-shrink: 0;
     }
-    .partner-container-grid {
-      height: 103px; 
-      display: grid;
-      grid-gap: 39px 40px;
-      grid-template-rows: 39px 39px;
-      grid-template-columns: 150px 150px 150px;
-      position: absolute;
-      padding: 88px 116px 424px 116px;
-      margin: 0;
-      width: 50%;
-    }
-  
     body {
       background-color: var(--MirageBlue);
     }
   }
-  @media (min-width: 1px) and (max-width: 375px) {
+  @media (min-width: 1px) and (max-width: 767px) {
     .partner-button {
       color: var(--LinkWaterWhite);
       text-align: center;
@@ -259,7 +257,6 @@
       letter-spacing: -0.246px;
       text-align: center;
       margin-bottom: 16px;
-      width: 375px;
      }
      .partner-small {
       color: var(--LinkWaterWhite);
@@ -272,37 +269,40 @@
       line-height: 28px; /* 186.667% */ 
     }
      .text-partner-container {
-      width: 360px;
-      flex-shrink: 0;
       text-align: center;
-      margin: 290px 0 80px 0;
-      padding: 0;
-      position: absolute;
+      margin: 0px 24px 32px 24px;
      }
-  
+    .partner-container-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+      align-items: center;
+      gap: 25px;
+      padding-top: 70px;
+    }
     .Tesla {
-      width: 107px;
-      height: 15px;
+      min-width: 107px;
+      min-height: 15px;
     }
     .Oracle {
-      width: 108px;
-      height: 14px;
+      min-width: 108px;
+      min-height: 14px;
     }
     .Google {
-      width: 79px;
-      height: 27px;
+      min-width: 79px;
+      min-height: 27px;
     }
     .Microsoft {
-      width: 120px;
-      height: 26px;
+      min-width: 120px;
+      min-height: 26px;
     }
     .HP {
-      width: 115px;
-      height: 22px;
+      min-width: 115px;
+      min-height: 22px;
     }
     .Nvidia {
-      width: 113px;
-      height: 22px;
+      min-width: 113px;
+      min-height: 22px;
     }
     img {
       display: block;
@@ -310,18 +310,6 @@
       padding-bottom: 20px;
       flex-shrink: 0;
     }
-    .partner-container-grid {
-      width: 280px;
-      height: 154px; 
-      display: grid;
-      grid-gap: 39px 0;
-      place-items: start;
-      grid-template-rows: 39px 39px 39px;
-      grid-template-columns: 150px 150px;
-      padding: 80px 47px 200px 48px;
-      position: absolute;
-    }
-  
     body {
       background-color: var(--MirageBlue);
     }
