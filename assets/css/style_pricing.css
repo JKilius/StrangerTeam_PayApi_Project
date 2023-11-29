@@ -94,7 +94,7 @@ body{
 
 .pricing--cards-include {
     color: var(--SanJuanBlue);
-    list-style-image: url(Path3.svg);
+    list-style-image:url(../images/shared/desktop/icon-check.svg) ;
     padding-bottom: 8px;
     padding-left: 24px;
 }

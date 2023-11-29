@@ -1,3 +1,5 @@
+@import url("style_pricing.css");
+
 :root {
     --DarkPink: #ba4270;
     --LinkWaterWhite: #fbfcfe;
@@ -7,4 +9,3 @@
     --LightSanJuanBlue: #6c8294;
 
 }
-@import url(style_pricing.css);
