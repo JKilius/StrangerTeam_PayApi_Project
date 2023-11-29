@@ -1,0 +1,328 @@
+
+@media (min-width: 769px) {
+
+    .partner-button {
+      color: var(--LinkWaterWhite);
+      text-align: center;
+      font-family: Public Sans;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: -0.115px;
+      text-decoration: none;
+      width: 129px;
+      height: 48px;
+      flex-shrink: 0;
+      border-radius: 24px;
+      border: 1px solid var(--LinkWaterWhite);
+      margin: 0 auto;
+      display: inline-block;
+      line-height: 46px;
+      text-align: center;
+      margin-top: 32px;
+      margin-right: 500px;
+    }
+    .partner-button:hover {
+      color: var(--MirageBlue);
+      text-align: center;
+      font-family: Public Sans;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: -0.115px;
+      text-decoration: none;
+      width: 129px;
+      height: 48px;
+      flex-shrink: 0;
+      border-radius: 24px;
+      border: 1px solid var(--LinkWaterWhite);
+      background-color: var(--LinkWaterWhite);
+      margin: 0 auto;
+      display: inline-block;
+      line-height: 46px;
+      text-align: center;
+      margin-top: 32px;
+      margin-right: 500px;
+    }
+     .partner-large {
+      width: 445px;
+      color: var(--LinkWaterWhite);
+      font-family: DM Serif Display;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 56px; /* 116.667% */
+      letter-spacing: -0.369px;
+      text-align: left;
+     }
+     .partner-small {
+      width: 445px;
+      height: 112px;
+      color: var(--LinkWaterWhite);
+      font-family: Public Sans;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 28px;
+      opacity: 0.7;
+      text-align: left;
+     }
+     .text-partner-container {
+      width: 445px;
+      height: 272px;
+      padding: 100px 830px 100px 165px;
+      text-align: center;
+      margin: 0;
+      position: absolute;
+     }
+  
+    .Tesla {
+      width: 129px;
+      height: 17px;
+      flex-shrink: 0;
+    }
+    .Oracle {
+      width: 131px;
+      height: 17px;
+      flex-shrink: 0;
+    }
+    .Google {
+      width: 96px;
+      height: 33px;
+      flex-shrink: 0;
+    }
+    .Microsoft {
+      width: 145px;
+      height: 31px;
+      flex-shrink: 0;
+    }
+    .HP {
+      width: 140px;
+      height: 27px;
+      flex-shrink: 0;
+    }
+    .Nvidia {
+      width: 137px;
+      height: 26px;
+      flex-shrink: 0;
+    }
+    img {
+      display: block;
+      max-width: 100%;
+      padding-bottom: 20px;
+    }
+    .partner-container-grid {
+      height: 103px;
+      flex-shrink: 0;
+      display: grid;
+      place-items: center;
+      grid-template-rows: 100px 39px;
+      grid-template-columns: 230px 230px 230px;
+      position: absolute;
+      padding: 185px 163px 184px 741px;
+    }
+  
+    .partners {
+      background-color: var(--MirageBlue);
+    }
+  }
+  @media (min-width: 376px) and (max-width: 768px) {
+    .partner-button {
+      color: var(--LinkWaterWhite);
+      text-align: center;
+      font-family: Public Sans;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: -0.115px;
+      text-decoration: none;
+      width: 129px;
+      height: 48px;
+      flex-shrink: 0;
+      border-radius: 24px;
+      border: 1px solid var(--LinkWaterWhite);
+      margin: 0 auto;
+      display: inline-block;
+      line-height: 46px;
+      text-align: center;
+      margin-top: 32px;
+    }
+     .partner-large {
+      color: var(--LinkWaterWhite);
+      text-align: center;
+      font-family: DM Serif Display;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 56px; /* 116.667% */
+      letter-spacing: -0.369px; 
+      margin-bottom: 24px;
+     }
+     .partner-small {
+      color: var(--LinkWaterWhite);
+      opacity: 0.7;
+      text-align: center;
+      font-family: Public Sans;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 28px; /* 186.667% */ 
+     }
+     .text-partner-container {
+      width: 50%;
+      flex-shrink: 0;
+      text-align: center;
+      margin: 255px 0px 88px 0px;
+      padding-left: 25%;
+      position: absolute;
+  
+     }
+  
+    .Tesla {
+      width: 129px;
+      height: 17px;
+    }
+    .Oracle {
+      width: 131px;
+      height: 17px;
+    }
+    .Google {
+      width: 96px;
+      height: 33px;
+      margin-left: 20px;
+    }
+    .Microsoft {
+      width: 145px;
+      height: 31px;
+    }
+    .HP {
+      width: 140px;
+      height: 27px;
+    }
+    .Nvidia {
+      width: 137px;
+      height: 26px;
+    }
+    img {
+      display: block;
+      max-width: 100%;
+      padding-bottom: 20px;
+      flex-shrink: 0;
+    }
+    .partner-container-grid {
+      height: 103px; 
+      display: grid;
+      grid-gap: 39px 40px;
+      grid-template-rows: 39px 39px;
+      grid-template-columns: 150px 150px 150px;
+      position: absolute;
+      padding: 88px 116px 424px 116px;
+      margin: 0;
+      width: 50%;
+    }
+  
+    body {
+      background-color: var(--MirageBlue);
+    }
+  }
+  @media (min-width: 1px) and (max-width: 375px) {
+    .partner-button {
+      color: var(--LinkWaterWhite);
+      text-align: center;
+      font-family: Public Sans;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: -0.115px;
+      text-decoration: none;
+      width: 129px;
+      height: 48px;
+      flex-shrink: 0;
+      border-radius: 24px;
+      border: 1px solid var(--LinkWaterWhite);
+      margin: 0 auto;
+      display: inline-block;
+      line-height: 46px;
+      margin-top: 32px;
+    }
+     .partner-large {
+      color: var(--LinkWaterWhite);
+      font-family: DM Serif Display;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 36px; /* 112.5% */
+      letter-spacing: -0.246px;
+      text-align: center;
+      margin-bottom: 16px;
+      width: 375px;
+     }
+     .partner-small {
+      color: var(--LinkWaterWhite);
+      opacity: 0.7;
+      text-align: center;
+      font-family: Public Sans;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 28px; /* 186.667% */ 
+    }
+     .text-partner-container {
+      width: 360px;
+      flex-shrink: 0;
+      text-align: center;
+      margin: 290px 0 80px 0;
+      padding: 0;
+      position: absolute;
+     }
+  
+    .Tesla {
+      width: 107px;
+      height: 15px;
+    }
+    .Oracle {
+      width: 108px;
+      height: 14px;
+    }
+    .Google {
+      width: 79px;
+      height: 27px;
+    }
+    .Microsoft {
+      width: 120px;
+      height: 26px;
+    }
+    .HP {
+      width: 115px;
+      height: 22px;
+    }
+    .Nvidia {
+      width: 113px;
+      height: 22px;
+    }
+    img {
+      display: block;
+      max-width: 100%;
+      padding-bottom: 20px;
+      flex-shrink: 0;
+    }
+    .partner-container-grid {
+      width: 280px;
+      height: 154px; 
+      display: grid;
+      grid-gap: 39px 0;
+      place-items: start;
+      grid-template-rows: 39px 39px 39px;
+      grid-template-columns: 150px 150px;
+      padding: 80px 47px 200px 48px;
+      position: absolute;
+    }
+  
+    body {
+      background-color: var(--MirageBlue);
+    }
+  }
