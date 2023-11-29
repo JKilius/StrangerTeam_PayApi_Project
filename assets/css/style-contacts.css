@@ -1,0 +1,711 @@
+@media (min-width: 769px){
+    body {
+        background-color: rgba(238, 243, 248, 255);
+    }
+
+    @font-face {
+        font-family: DMSerifDisplay-Regular;
+        src: url(../fonts/DMSerifDisplay-Regular.ttf);
+    }
+
+    @font-face {
+        font-family: PublicSans;
+        src: url(../fonts/PublicSans-VariableFont_wght.ttf);
+    }
+
+    .contact-header {
+        color: #36536B;
+        font-family: DMSerifDisplay-Regular;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 56px; 
+        letter-spacing: -0.431px;
+        margin-top: 150px;
+        margin-left: 155px;
+        width: 730px;
+    }
+
+    #contact-name::placeholder,
+    #contact-email::placeholder,
+    #contact-company-name::placeholder,
+    #contact-title::placeholder,
+    #contact-message::placeholder {
+        color: #36536B;
+        font-family: PublicSans;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: -0.115px;
+        opacity: 0.5;
+    }
+
+    #contact-name,
+    #contact-email,
+    #contact-company-name,
+    #contact-title,
+    #contact-message {
+        display: grid;
+        margin-top: 40px;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #9fadb8;
+        background-color: rgba(238, 243, 248, 255);
+        width: 433px;
+        color: #36536B;
+        font-family: PublicSans;
+    }
+
+    #contact-name:focus{
+        border-bottom: 1px solid #36536B;
+    }
+
+    #contact-name,
+    #contact-email,
+    #contact-company-name,
+    #contact-title {
+        padding-left: 20px;
+        padding-bottom: 17px;
+    }
+
+    #contact-message {
+        padding-left: 20px;
+        padding-bottom: 64px;
+        resize: none;
+    }
+
+    #contact-name,
+    #contact-email,
+    #contact-company-name,
+    #contact-title,
+    #contact-message {
+        margin-bottom: 24px;
+        margin-left: 155px;
+    }
+
+    #checkbox-container {
+        display: block;
+        position: relative;
+        font-size: 22px;
+        user-select: none;
+        color: #36536B;
+        font-family: PublicSans;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: -0.115px;
+        width: 395px;
+        height: 50px;
+        display: inline-block;
+        margin-left: 155px;
+        margin-bottom: 12px;
+        padding-left: 60px;
+        margin-top: 12px;
+    }
+
+    #checkbox-container p {
+        margin-top: -10px;
+    }
+
+    #checkbox-container input {
+        position: absolute;
+        opacity: 0;
+        height: 0;
+        width: 0;
+    }
+
+    #checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 24px;
+        width: 24px;
+        background-color: #c1cbd5;
+        cursor: pointer;
+    }
+
+    #checkbox-container input:checked~#checkmark {
+        background-color: #BA4270;
+    }
+
+    #checkmark:after {
+        content: "";
+        position: absolute;
+        display: none;
+    }
+
+    #checkbox-container input:checked~#checkmark:after {
+        display: block;
+    }
+
+    #checkbox-container #checkmark:after {
+        left: 8px;
+        top: 4px;
+        width: 5px;
+        height: 10px;
+        border: solid white;
+        border-width: 0 3px 3px 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+    #contact-submit {
+        display: block;
+        color: #36536B;
+        text-align: center;
+        font-family: PublicSans;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.115px;
+        border-radius: 24px;
+        border: 1px solid #36536B;
+        padding-left: 50px;
+        padding-right: 48px;
+        padding-top: 15px;
+        padding-bottom: 13px;
+        background-color: rgba(238, 243, 248, 255);
+        margin-left: 155px;
+    }
+    
+    #contact-submit:hover{
+        background-color: #36536B;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+
+    #company-text {
+        color: #36536B;
+        font-family: DMSerifDisplay-Regular;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: -0.185px;
+        width: 445px;
+        margin-left: 165px;
+        margin-top: 55px;
+        opacity: 0.75;
+    }
+
+    .company-logos-grid {
+        display: grid;
+        grid-template-columns: 200px 200px 200px;
+        grid-template-rows: 65px 65px;
+        margin-left: 160px;
+        margin-top: 57px;
+    }
+
+    #company-container{
+        float: right;
+        margin-top: -460px;
+        margin-right: 100px;
+    }
+
+.gridElement1{
+    background-image: url(../svg/tesla-desktop.svg);
+    width: 131px;
+    height: 17px;
+}
+.gridElement2{
+    background-image: url(../svg/microsoft-desktop.svg);
+    width: 146px;
+    height: 31px;
+    margin-top: -5px;
+}
+.gridElement3{
+    background-image: url(../svg/hp-desktop.svg);
+    width: 141px;
+    height: 27px;
+    margin-top: -2px;
+}
+.gridElement4{
+    background-image: url(../svg/oracle-desktop.svg);
+    width: 132px;
+    height: 17px;
+}
+.gridElement5{
+    background-image: url(../svg/google-desktop.svg);
+    width: 97px;
+    height: 33px;
+    margin-left: 20px;    
+}
+.gridElement6{
+    background-image: url(../svg/nvidia-desktop.svg);
+    width: 138px;
+    height: 26px;
+}
+
+}
+@media (min-width: 376px) and (max-width: 768px) {
+    body {
+        background-color: rgba(238, 243, 248, 255);
+    }
+
+    @font-face {
+        font-family: DMSerifDisplay-Regular;
+        src: url(../fonts/DMSerifDisplay-Regular.ttf);
+    }
+
+    @font-face {
+        font-family: PublicSans;
+        src: url(../fonts/PublicSans-VariableFont_wght.ttf);
+    }
+
+    .contact-header {
+        color: #36536B;
+        text-align: center;
+        font-family: DMSerifDisplay-Regular;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 56px;
+        letter-spacing: -0.369px;
+        margin-top: 141px;
+        margin-left: 110px;
+        width: 543px;
+    }
+
+    #contact-name::placeholder,
+    #contact-email::placeholder,
+    #contact-company-name::placeholder,
+    #contact-title::placeholder,
+    #contact-message::placeholder {
+        color: #36536B;
+        font-family: PublicSans;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: -0.115px;
+        opacity: 0.5;
+    }
+
+    #contact-name,
+    #contact-email,
+    #contact-company-name,
+    #contact-title,
+    #contact-message {
+        display: grid;
+        margin-top: 40px;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #9fadb8;
+        background-color: rgba(238, 243, 248, 255);
+        width: 433px;
+        color: #36536B;
+        font-family: PublicSans;
+    }
+
+    #contact-name,
+    #contact-email,
+    #contact-company-name,
+    #contact-title {
+        padding-left: 20px;
+        padding-bottom: 17px;
+    }
+
+    #contact-message {
+        padding-left: 20px;
+        padding-bottom: 64px;
+        resize: none;
+    }
+
+    #contact-name,
+    #contact-email,
+    #contact-company-name,
+    #contact-title,
+    #contact-message {
+        margin-bottom: 24px;
+        margin-left: 155px;
+    }
+
+    #checkbox-container {
+        display: block;
+        position: relative;
+        font-size: 22px;
+        user-select: none;
+        color: #36536B;
+        font-family: PublicSans;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: -0.115px;
+        width: 395px;
+        height: 50px;
+        display: inline-block;
+        margin-left: 155px;
+        margin-bottom: 12px;
+        padding-left: 60px;
+        margin-top: 12px;
+
+    }
+
+    #checkbox-container p {
+        margin-top: -10px;
+    }
+
+    #checkbox-container input {
+        position: absolute;
+        opacity: 0;
+        height: 0;
+        width: 0;
+    }
+
+    #checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 24px;
+        width: 24px;
+        background-color: #c1cbd5;
+        cursor: pointer;
+    }
+
+    #checkbox-container input:checked~#checkmark {
+        background-color: #BA4270;
+    }
+
+    #checkmark:after {
+        content: "";
+        position: absolute;
+        display: none;
+    }
+
+    #checkbox-container input:checked~#checkmark:after {
+        display: block;
+    }
+
+    #checkbox-container #checkmark:after {
+        left: 8px;
+        top: 4px;
+        width: 5px;
+        height: 10px;
+        border: solid white;
+        border-width: 0 3px 3px 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+    #contact-submit {
+        color: #36536B;
+        text-align: center;
+        font-family: PublicSans;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.115px;
+        border-radius: 24px;
+        border: 1px solid #36536B;
+        padding-left: 50px;
+        padding-right: 48px;
+        padding-top: 15px;
+        padding-bottom: 13px;
+        background-color: rgba(238, 243, 248, 255);
+        margin-left: 155px;
+    }
+
+    #contact-submit:hover{
+        background-color: #36536B;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+
+    #company-text {
+        color: #36536B;
+        text-align: center;
+        font-family: DMSerifDisplay-Regular;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: -0.185px;
+        width: 445px;
+        margin-left: 155px;
+        margin-top: 55px;
+        opacity: 0.75;
+    }
+
+    .company-logos-grid {
+        display: grid;
+        grid-template-columns: 185px 185px 185px;
+        grid-template-rows: 62px 62px;
+        margin-left: 120px;
+        margin-top: 40px;
+    }
+    .gridElement1{
+        background-image: url(../svg/tesla-desktop.svg);
+        width: 131px;
+        height: 17px;
+    }
+    .gridElement2{
+        background-image: url(../svg/microsoft-desktop.svg);
+        width: 148px;
+        height: 31px;
+        margin-top: -6px;        
+    }
+    .gridElement3{
+        background-image: url(../svg/hp-desktop.svg);
+        width: 142px;
+        height: 27px;
+        margin-top: -2px;
+    }
+    .gridElement4{
+        background-image: url(../svg/oracle-desktop.svg);
+        width: 132px;
+        height: 17px;
+    }
+    .gridElement5{
+        background-image: url(../svg/google-desktop.svg);
+        width: 97px;
+        height: 33px;
+        margin-left: 20px;
+        margin-top: -5px;        
+    }
+    .gridElement6{
+        background-image: url(../svg/nvidia-desktop.svg);
+        width: 139px;
+        height: 26px;
+        margin-top: -2px;
+    }
+}
+@media (min-width: 1px) and (max-width: 375px) {
+    body {
+        background-color: rgba(238, 243, 248, 255);
+    }
+
+    @font-face {
+        font-family: DMSerifDisplay-Regular;
+        src: url(../fonts/DMSerifDisplay-Regular.ttf);
+    }
+
+    @font-face {
+        font-family: PublicSans;
+        src: url(../fonts/PublicSans-VariableFont_wght.ttf);
+    }
+
+    .contact-header {
+        color: #36536B;
+        text-align: center;
+        font-family: DMSerifDisplay-Regular;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: -0.246px;
+        margin-top: 126px;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+    #contact-name::placeholder,
+    #contact-email::placeholder,
+    #contact-company-name::placeholder,
+    #contact-title::placeholder,
+    #contact-message::placeholder {
+        color: #36536B;
+        font-family: PublicSans;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: -0.115px;
+        opacity: 0.5;
+    }
+
+    #contact-name,
+    #contact-email,
+    #contact-company-name,
+    #contact-title,
+    #contact-message {
+        display: grid;
+        margin-top: 40px;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #9fadb8;
+        background-color: rgba(238, 243, 248, 255);
+        width: 300px;
+        color: #36536B;
+        font-family: PublicSans;
+    }
+
+    #contact-name,
+    #contact-email,
+    #contact-company-name,
+    #contact-title {
+        padding-left: 20px;
+        padding-bottom: 17px;
+    }
+
+    #contact-message {
+        padding-left: 20px;
+        padding-bottom: 64px;
+        resize: none;
+    }
+
+    #contact-name,
+    #contact-email,
+    #contact-company-name,
+    #contact-title,
+    #contact-message {
+        margin-bottom: 24px;
+        margin-left: 20px;
+    }
+
+    #checkbox-container {
+        display: block;
+        position: relative;
+        font-size: 22px;
+        user-select: none;
+        color: #36536B;
+        font-family: PublicSans;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: -0.115px;
+        width: 277px;
+        height: 50px;
+        display: inline-block;
+        margin-left: 20px;
+        margin-bottom: 12px;
+        padding-left: 48px;
+        margin-top: 12px;
+    }
+
+    #checkbox-container p {
+        margin-top: -10px;
+    }
+
+    #checkbox-container input {
+        position: absolute;
+        opacity: 0;
+        height: 0;
+        width: 0;
+    }
+
+    #checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 24px;
+        width: 24px;
+        background-color: #c1cbd5;
+        cursor: pointer;
+    }
+
+    #checkbox-container input:checked~#checkmark {
+        background-color: #BA4270;
+    }
+
+    #checkmark:after {
+        content: "";
+        position: absolute;
+        display: none;
+    }
+
+    #checkbox-container input:checked~#checkmark:after {
+        display: block;
+    }
+
+    #checkbox-container #checkmark:after {
+        left: 8px;
+        top: 4px;
+        width: 5px;
+        height: 10px;
+        border: solid white;
+        border-width: 0 3px 3px 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+    #contact-submit {
+        color: #36536B;
+        text-align: center;
+        font-family: PublicSans;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.115px;
+        border-radius: 24px;
+        border: 1px solid #36536B;
+        padding-left: 50px;
+        padding-right: 48px;
+        padding-top: 15px;
+        padding-bottom: 13px;
+        background-color: rgba(238, 243, 248, 255);
+        margin-left: 20px;
+    }
+
+    #contact-submit:hover{
+        background-color: #36536B;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+
+    #company-text {
+        color: #36536B;
+        text-align: center;
+        font-family: DMSerifDisplay-Regular;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: -0.185px;
+        width: 327px;
+        margin-left: 17px;
+        margin-top: 55px;
+        opacity: 0.75;
+    }
+
+    .company-logos-grid {
+        display: grid;
+        grid-template-columns: 155px 155px;
+        grid-template-rows: 60px 60px;
+        margin-left: 45px;
+        margin-top: 30px;
+    }
+    .gridElement1{
+        background-image: url(../svg/tesla-phone.svg);
+        width: 107px;
+        height: 16px;
+    }
+    .gridElement2{
+        background-image: url(../svg/microsoft-phone.svg);
+        width: 119px;
+        height: 26px;
+        margin-top: -6px;        
+    }
+    .gridElement3{
+        background-image: url(../svg/hp-phone.svg);
+        width: 114px;
+        height: 22px;
+        margin-top: -2px;
+    }
+    .gridElement4{
+        background-image: url(../svg/oracle-phone.svg);
+        width: 108px;
+        height: 15px;
+        margin-left: 10px;
+    }
+    .gridElement5{
+        background-image: url(../svg/google-phone.svg);
+        width: 78px;
+        height: 27px;
+        margin-left: 10px;
+    }
+    .gridElement6{
+        background-image: url(../svg/nvidia-phone.svg);
+        width: 112px;
+        height: 21px;
+    }
+}
