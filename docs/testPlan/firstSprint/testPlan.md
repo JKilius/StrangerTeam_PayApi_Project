@@ -101,7 +101,7 @@ Review and Approval
 
     Project Manager Name - Rita 
 
-    Development Team Lead Name - 
+    Development Team Lead Name - Justinas
 
 Change Management 
 
