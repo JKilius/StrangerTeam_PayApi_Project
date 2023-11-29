@@ -7,15 +7,4 @@
     --LightSanJuanBlue: #6c8294;
 
 }
-
-body{
-    background-color: #6c8294;
-}
-
-h1{
-    color: #ba4270;
-}
-
-p{
-    background-color: #6ca6d6;
-}
+@import url(style_pricing.css);
