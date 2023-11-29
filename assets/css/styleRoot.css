@@ -1,3 +1,5 @@
+@import url(/assets/css/style_Home_header.css);
+
 :root {
     --DarkPink: #ba4270;
     --LinkWaterWhite: #fbfcfe;
@@ -5,17 +7,4 @@
     --MirageBlue: #1b262f;
     --CharmPincActives: #da6d97;
     --LightSanJuanBlue: #6c8294;
-
-}
-
-body{
-    background-color: #6c8294;
-}
-
-h1{
-    color: #ba4270;
-}
-
-p{
-    background-color: #6ca6d6;
 }

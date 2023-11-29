@@ -1,0 +1,184 @@
+:root {
+    --sanjuanblue: #36536b;
+    --darkpink: #ba4270;
+    --lightsan: #6c8294;
+    --charmpink: #da6d97;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #f0f4fc;
+}
+
+.mobilcont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobil {
+    justify-content: center;
+    top: 100px;
+    margin-top: 110px;
+    margin-left: 70px;
+}
+
+.motto {
+    color: var(--sanjuanblue);
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: -0.246px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input {
+    border-style: none;
+    border-radius: 24px;
+    width: 87.2%;
+    height: 48px;
+
+}
+.input:focus{
+    outline: none;
+}
+
+.button {
+    border-style: none;
+    border-radius: 24px;
+    width: 87.2%;
+    height: 48px;
+    background-color: var(--darkpink);
+    color: white;
+    font-size: 15;
+}
+
+.button:hover {
+    background-color: var(--charmpink);
+
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    margin-left: 24px;
+    font-family: "Public Sans";
+    color: var(--lightsan);
+}
+
+.buttontext {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0 auto;
+}
+.link{
+    text-decoration: none;
+    color: var(--sanjuanblue);
+    font-weight: bold;
+}
+
+/* sitas body ir container nuima apatini scroll wheela ir centruoja turini */
+
+@media only screen and (min-width: 769px) {
+    .mottotext {
+        text-align: center;
+    }
+
+    .motto {
+        margin-left: 15%;
+        width: 73.31%;
+        text-align: center;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 72px;
+        letter-spacing: -0.369px;
+        justify-content: flex-start;
+    }
+    .buttons {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .button {
+        position: absolute;
+        width: 173px;
+        right: 26% ;
+    }
+
+    .input {
+        width:40%;
+        position: relative;
+        left: -1%;
+    }
+}
+
+@media only screen and (min-width:1080px) {
+    .motto {
+        width: 37.92;
+        font-size: 50px;
+        display: flex;
+        justify-content: flex-start;
+        position: absolute;
+        top: 15%;
+        inline-size: 37.91%;
+        font-weight: 400;
+        letter-spacing: -0.554px;
+        margin-left: 7%;
+        line-height: 79px;
+    }
+    .mottotext{
+        text-align: left;
+    }
+
+    .mobilcont {
+        margin-right: 10%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .mobil{
+        transform: scale(1.2);
+    }
+    .buttons{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .button{
+        position: relative;
+        margin-left:19%;
+        width: 173px;
+
+    }
+    .input{
+        margin-left: 7%;
+        width:445px ;
+    }
+    .contact{
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 7%;
+    }
+    .buttontext{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
