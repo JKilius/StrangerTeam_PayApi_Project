@@ -1,6 +1,10 @@
-@import url(/assets/css/style_Home_header.css);
+@import url(style_Home_header.css);
 
-@import url(assets/css/style_home_partners.css);
+@import url(style_home_partners.css);
+
+@import url(style_home_cart.css);
+
+@import url(style-footer.css);
 
 :root {
     --DarkPink: #ba4270;
