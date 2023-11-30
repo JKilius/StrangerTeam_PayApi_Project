@@ -133,7 +133,6 @@ body {
       width: 1440px;
       height: 472px;
       background-color: var(--MirageBlue);
-      
     }
   }
   @media (min-width: 768px) and (max-width: 1439px) {
@@ -156,7 +155,8 @@ body {
       display: inline-block;
       line-height: 46px;
       text-align: center;
-      margin-top: 32px;
+      margin-top: 28px;
+      margin-bottom: 88px;
     }
      .partner-large {
       color: var(--LinkWaterWhite);
@@ -222,7 +222,7 @@ body {
       padding-bottom: 20px;
       flex-shrink: 0;
     }
-    body {
+    .partners {
       background-color: var(--MirageBlue);
     }
   }
@@ -245,7 +245,8 @@ body {
       margin: 0 auto;
       display: inline-block;
       line-height: 46px;
-      margin-top: 32px;
+      margin-top: 50px;
+      margin-bottom: 80px;
     }
      .partner-large {
       color: var(--LinkWaterWhite);
@@ -310,7 +311,7 @@ body {
       padding-bottom: 20px;
       flex-shrink: 0;
     }
-    body {
+    .partners {
       background-color: var(--MirageBlue);
     }
   }
