@@ -8,9 +8,9 @@
 
 @import url(style_pricing.css);
 
-@import url(style_home_partners.css);
-
 @import url(style-about.css);
+
+@import url(style-contacts.css);
 
 :root {
     --DarkPink: #ba4270;
