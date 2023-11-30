@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #EDF3F8;
+}
+
+.pricing--header {
+    color: var(--SanJuanBlue);
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.246px;
+    margin-bottom: 48px;
+}
+
+.pricing--cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 375px;
+    margin: 0 auto;
+}
+
+.pricing--cards-unit {
+    width: 90%;
+}
+
+.pricing--cards h4 {
+    color: var(--DarkPink);
+    font-family: 'DM Serif Display', serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.185px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 17px;
+}
+
+.pricing--cards p {
+    color: var(--LightSanJuanBlue);
+    text-align: center;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 28px;
+    margin-bottom: 8px;
+    min-height: 56px;
+    max-width: 80%;
+    margin-left: 10%;
+}
+
+.pricing--cards h1 {
+    color: var(--SanJuanBlue);
+    font-family: 'DM Serif Display', serif;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: -0.431px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.pricing--cards-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-top: 1px solid #37546d40;
+    border-bottom: 1px solid #37546d40;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 25px;
+    margin-bottom: 24px;
+}
+
+.pricing--cards ul {
+    margin-top: 25px;
+    margin-bottom: 24px;
+}
+
+.pricing--cards-include {
+    color: var(--SanJuanBlue);
+    list-style-image:url(../images/shared/desktop/icon-check.svg) ;
+    padding-bottom: 8px;
+    padding-left: 24px;
+}
+
+.pricing--cards-exclude {
+    list-style-type: none;
+    color: #36536b79;
+    padding-bottom: 8px;
+    padding-left: 24px;
+}
+
+.pricing--cards-btn {
+    text-align: center;
+    /* padding-top: 25px; */
+    padding-bottom: 48px;
+}
+
+.pricing--cards-button {
+    color: var(--SanJuanBlue);
+    font-family: 'Public Sans', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.115px;
+    padding: 16px 28px 14px;
+    border-radius: 24px;
+    background-color: transparent;
+    border: 1px solid var(--SanJuanBlue);
+}
+
+button:hover{
+    background-color: var(--SanJuanBlue);
+    color: var(--LinkWaterWhite);
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    .pricing--header {
+        font-size: 48px;
+        line-height: 56px;
+        letter-spacing: -0.369px;
+        margin-bottom: 69px;
+    }
+
+    .pricing--cards {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin: 0 39px;
+        min-width: 223px;
+    }
+
+    .pricing--cards h4{
+        line-height: 40px;
+        margin-bottom: 13px;
+    }
+
+    .pricing--cards p {
+        min-height: 85px;
+        font-weight: 400;
+        margin-bottom: 19px;
+        max-height: 85px;
+    }
+
+    .pricing--cards h1{
+        font-size: 48px;
+        letter-spacing: -0.369px;
+        margin-bottom: 21px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    body{
+        margin: 0 165px;
+    }
+    .pricing--header{
+        text-align: start;
+        margin-bottom: 72px;
+        font-size: 56px;
+        line-height: -0.431px;
+    }
+    .pricing--cards{
+        min-width: 350px;
+        gap: 30px;
+        margin: 0;
+    }
+    .pricing--cards h4{
+        text-align: start;
+        margin-bottom: 16px;
+        font-size: 32px;
+        letter-spacing: -0.246px;
+    }
+    .pricing--cards p {
+        text-align: start;
+        min-height: 56px;
+        margin-bottom: 8px;
+        margin-left: 0;
+    }
+    .pricing--cards h1{
+        text-align: start;
+        margin-bottom: 24px;
+        font-size: 56px;
+        letter-spacing: -0.431px;
+    }
+    .pricing--cards-list {
+        justify-content: start;
+    }
+    .pricing--cards-btn{
+        text-align: start;
+    }
+}
