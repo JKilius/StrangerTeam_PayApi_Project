@@ -1,4 +1,7 @@
-@import url(../css/style_home_partners.css);
+@import url(style_home_partners.css);
+
+@import url(style-about.css);
+
 :root {
     --DarkPink: #ba4270;
     --LinkWaterWhite: #fbfcfe;
