@@ -1,21 +1,15 @@
-@media (min-width: 769px){
+@import url(https://fonts.google.com/specimen/DM+Serif+Display);
+@import url(https://fonts.google.com/specimen/Public+Sans);
+
+@media (min-width: 1201px){
     body {
         background-color: rgba(238, 243, 248, 255);
-    }
-
-    @font-face {
-        font-family: DMSerifDisplay-Regular;
-        src: url(../fonts/DMSerifDisplay-Regular.ttf);
-    }
-
-    @font-face {
-        font-family: PublicSans;
-        src: url(../fonts/PublicSans-VariableFont_wght.ttf);
+        overflow: hidden;
     }
 
     .contact-header {
         color: #36536B;
-        font-family: DMSerifDisplay-Regular;
+        font-family: DM Serif Display;
         font-size: 56px;
         font-style: normal;
         font-weight: 400;
@@ -32,7 +26,7 @@
     #contact-title::placeholder,
     #contact-message::placeholder {
         color: #36536B;
-        font-family: PublicSans;
+        font-family: Public Sans;
         font-size: 15px;
         font-style: normal;
         font-weight: 400;
@@ -47,14 +41,17 @@
     #contact-title,
     #contact-message {
         display: grid;
-        margin-top: 40px;
         border: none;
         outline: none;
         border-bottom: 1px solid #9fadb8;
         background-color: rgba(238, 243, 248, 255);
         width: 433px;
         color: #36536B;
-        font-family: PublicSans;
+        font-family: Public Sans;
+    }
+
+    #contact-name{
+        margin-top: 40px;
     }
 
     #contact-name:focus{
@@ -90,7 +87,7 @@
         font-size: 22px;
         user-select: none;
         color: #36536B;
-        font-family: PublicSans;
+        font-family: Public Sans;
         font-size: 15px;
         font-style: normal;
         font-weight: 400;
@@ -101,7 +98,7 @@
         display: inline-block;
         margin-left: 155px;
         margin-bottom: 12px;
-        padding-left: 60px;
+        padding-left: 52px;
         margin-top: 12px;
     }
 
@@ -156,7 +153,7 @@
         display: block;
         color: #36536B;
         text-align: center;
-        font-family: PublicSans;
+        font-family: Public Sans;
         font-size: 15px;
         font-style: normal;
         font-weight: 700;
@@ -180,7 +177,7 @@
 
     #company-text {
         color: #36536B;
-        font-family: DMSerifDisplay-Regular;
+        font-family: DM Serif Display;
         font-size: 24px;
         font-style: normal;
         font-weight: 400;
@@ -202,8 +199,12 @@
 
     #company-container{
         float: right;
-        margin-top: -460px;
-        margin-right: 100px;
+        margin-top: -680px;
+        margin-right: 0px;
+    }
+
+    #contact-form{
+        padding-bottom: 208px;
     }
 
 .gridElement1{
@@ -240,26 +241,85 @@
     height: 26px;
 }
 
+#inputErrorName{
+    position: absolute;
+    color: #F00;
+    font-family: Public Sans;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.085px;
+    margin-left: 174px;
+    margin-top: -433px;
+    opacity: 0.7;    
 }
-@media (min-width: 376px) and (max-width: 768px) {
+#inputErrorEmail{
+    position: absolute;
+    color: #F00;
+    font-family: Public Sans;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.085px;
+    margin-left: 174px;
+    margin-top: -375px;
+    opacity: 0.7;    
+}
+#inputErrorCompany{
+    position: absolute;
+    color: #F00;
+    font-family: Public Sans;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.085px;
+    margin-left: 174px;
+    margin-top: -318px;
+    opacity: 0.7;    
+}
+#inputErrorTitle{
+    position: absolute;
+    color: #F00;
+    font-family: Public Sans;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.085px;
+    margin-left: 174px;
+    margin-top: -260px;
+    opacity: 0.7;    
+}
+#inputErrorMessage{
+    position: absolute;
+    color: #F00;
+    font-family: Public Sans;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.085px;
+    margin-left: 174px;
+    margin-top: -138px;
+    opacity: 0.7;    
+}
+.hidden{
+    display: none;
+}
+
+}
+@media (min-width: 661px) and (max-width: 1200px) {
     body {
         background-color: rgba(238, 243, 248, 255);
-    }
-
-    @font-face {
-        font-family: DMSerifDisplay-Regular;
-        src: url(../fonts/DMSerifDisplay-Regular.ttf);
-    }
-
-    @font-face {
-        font-family: PublicSans;
-        src: url(../fonts/PublicSans-VariableFont_wght.ttf);
     }
 
     .contact-header {
         color: #36536B;
         text-align: center;
-        font-family: DMSerifDisplay-Regular;
+        font-family: DM Serif Display;
         font-size: 48px;
         font-style: normal;
         font-weight: 400;
@@ -276,7 +336,7 @@
     #contact-title::placeholder,
     #contact-message::placeholder {
         color: #36536B;
-        font-family: PublicSans;
+        font-family: Public Sans;
         font-size: 15px;
         font-style: normal;
         font-weight: 400;
@@ -291,14 +351,17 @@
     #contact-title,
     #contact-message {
         display: grid;
-        margin-top: 40px;
         border: none;
         outline: none;
         border-bottom: 1px solid #9fadb8;
         background-color: rgba(238, 243, 248, 255);
         width: 433px;
         color: #36536B;
-        font-family: PublicSans;
+        font-family: Public Sans;
+    }
+
+    #contact-name{
+        margin-top: 40px;
     }
 
     #contact-name,
@@ -330,7 +393,7 @@
         font-size: 22px;
         user-select: none;
         color: #36536B;
-        font-family: PublicSans;
+        font-family: Public Sans;
         font-size: 15px;
         font-style: normal;
         font-weight: 400;
@@ -341,7 +404,7 @@
         display: inline-block;
         margin-left: 155px;
         margin-bottom: 12px;
-        padding-left: 60px;
+        padding-left: 52px;
         margin-top: 12px;
 
     }
@@ -394,9 +457,10 @@
     }
 
     #contact-submit {
+        display: block;
         color: #36536B;
         text-align: center;
-        font-family: PublicSans;
+        font-family: Public Sans;
         font-size: 15px;
         font-style: normal;
         font-weight: 700;
@@ -421,7 +485,7 @@
     #company-text {
         color: #36536B;
         text-align: center;
-        font-family: DMSerifDisplay-Regular;
+        font-family: DM Serif Display;
         font-size: 24px;
         font-style: normal;
         font-weight: 400;
@@ -475,26 +539,85 @@
         height: 26px;
         margin-top: -2px;
     }
+
+    #inputErrorName{
+        position: absolute;
+        color: #F00;
+        font-family: Public Sans;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.085px;
+        margin-left: 174px;
+        margin-top: -433px;
+        opacity: 0.7;    
+    }
+    #inputErrorEmail{
+        position: absolute;
+        color: #F00;
+        font-family: Public Sans;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.085px;
+        margin-left: 174px;
+        margin-top: -375px;
+        opacity: 0.7;    
+    }
+    #inputErrorCompany{
+        position: absolute;
+        color: #F00;
+        font-family: Public Sans;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.085px;
+        margin-left: 174px;
+        margin-top: -318px;
+        opacity: 0.7;    
+    }
+    #inputErrorTitle{
+        position: absolute;
+        color: #F00;
+        font-family: Public Sans;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.085px;
+        margin-left: 174px;
+        margin-top: -260px;
+        opacity: 0.7;    
+    }
+    #inputErrorMessage{
+        position: absolute;
+        color: #F00;
+        font-family: Public Sans;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.085px;
+        margin-left: 174px;
+        margin-top: -138px;
+        opacity: 0.7;    
+    }
+    .hidden{
+        display: none;
 }
-@media (min-width: 1px) and (max-width: 375px) {
+}
+@media (min-width: 1px) and (max-width: 660px) {
     body {
         background-color: rgba(238, 243, 248, 255);
-    }
-
-    @font-face {
-        font-family: DMSerifDisplay-Regular;
-        src: url(../fonts/DMSerifDisplay-Regular.ttf);
-    }
-
-    @font-face {
-        font-family: PublicSans;
-        src: url(../fonts/PublicSans-VariableFont_wght.ttf);
     }
 
     .contact-header {
         color: #36536B;
         text-align: center;
-        font-family: DMSerifDisplay-Regular;
+        font-family: DM Serif Display;
         font-size: 32px;
         font-style: normal;
         font-weight: 400;
@@ -511,7 +634,7 @@
     #contact-title::placeholder,
     #contact-message::placeholder {
         color: #36536B;
-        font-family: PublicSans;
+        font-family: Public Sans;
         font-size: 15px;
         font-style: normal;
         font-weight: 400;
@@ -533,7 +656,7 @@
         background-color: rgba(238, 243, 248, 255);
         width: 300px;
         color: #36536B;
-        font-family: PublicSans;
+        font-family: Public Sans;
     }
 
     #contact-name,
@@ -565,13 +688,13 @@
         font-size: 22px;
         user-select: none;
         color: #36536B;
-        font-family: PublicSans;
+        font-family: Public Sans;
         font-size: 15px;
         font-style: normal;
         font-weight: 400;
         line-height: 25px;
         letter-spacing: -0.115px;
-        width: 277px;
+        width: 316px;
         height: 50px;
         display: inline-block;
         margin-left: 20px;
@@ -628,9 +751,10 @@
     }
 
     #contact-submit {
+        display: block;
         color: #36536B;
         text-align: center;
-        font-family: PublicSans;
+        font-family: Public Sans;
         font-size: 15px;
         font-style: normal;
         font-weight: 700;
@@ -655,7 +779,7 @@
     #company-text {
         color: #36536B;
         text-align: center;
-        font-family: DMSerifDisplay-Regular;
+        font-family: DM Serif Display;
         font-size: 24px;
         font-style: normal;
         font-weight: 400;
@@ -708,4 +832,73 @@
         width: 112px;
         height: 21px;
     }
+
+    #inputErrorName{
+        position: absolute;
+        color: #F00;
+        font-family: Public Sans;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.085px;
+        margin-left: 37px;
+        margin-top: -496px;
+        opacity: 0.7;    
+    }
+    #inputErrorEmail{
+        position: absolute;
+        color: #F00;
+        font-family: Public Sans;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.085px;
+        margin-left: 37px;
+        margin-top: -422px;
+        opacity: 0.7;    
+    }
+    #inputErrorCompany{
+        position: absolute;
+        color: #F00;
+        font-family: Public Sans;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.085px;
+        margin-left: 37px;
+        margin-top: -348px;
+        opacity: 0.7;    
+    }
+    #inputErrorTitle{
+        position: absolute;
+        color: #F00;
+        font-family: Public Sans;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.085px;
+        margin-left: 37px;
+        margin-top: -274px;
+        opacity: 0.7;    
+    }
+    #inputErrorMessage{
+        position: absolute;
+        color: #F00;
+        font-family: Public Sans;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.085px;
+        margin-left: 37px;
+        margin-top: -138px;
+        opacity: 0.7;    
+    }
+    .hidden{
+        display: none;
+}
 }
