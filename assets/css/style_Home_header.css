@@ -25,6 +25,9 @@ body {
 }
 
 .motto {
+    margin-top: 166px;
+    margin-left: 24px;
+    margin-right: 24px;
     color: var(--sanjuanblue);
     text-align: center;
     font-family: "DM Serif Display";
@@ -34,24 +37,26 @@ body {
 }
 
 .buttons {
+    margin-top: 24px;
+    margin-bottom: 24px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.input {
+.emailthing {
     border-style: none;
     border-radius: 24px;
     width: 87.2%;
     height: 48px;
 
 }
-.input:focus{
+.emailthing:focus {
     outline: none;
 }
 
-.button {
+.buttonthing {
     border-style: none;
     border-radius: 24px;
     width: 87.2%;
@@ -66,7 +71,8 @@ body {
 
 }
 
-.contact {
+.contactus {
+    margin-bottom: 79px;
     display: flex;
     justify-content: center;
     margin-left: 24px;
@@ -77,27 +83,15 @@ body {
 .buttontext {
     font-size: 15px;
     font-weight: bold;
-}
-
-body {
-    margin: 0;
-}
-
-.container {
-    width: 100%;
-    max-width: 100%;
-    overflow-x: hidden;
-    margin: 0 auto;
-}
+    
 .link{
     text-decoration: none;
     color: var(--sanjuanblue);
     font-weight: bold;
 }
 
-/* sitas body ir container nuima apatini scroll wheela ir centruoja turini */
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 376px) {
     .mottotext {
         text-align: center;
     }
@@ -118,20 +112,28 @@ body {
         flex-direction: row;
     }
 
-    .button {
+    .buttonthing {
         position: absolute;
         width: 173px;
         right: 26% ;
     }
 
-    .input {
+    .emailthing {
         width:40%;
         position: relative;
         left: -1%;
     }
+
+    .contactus {
+        margin-bottom: 99px;
+    }
 }
 
-@media only screen and (min-width:1080px) {
+@media only screen and (min-width:1440px) {
+    .containerhead{
+        margin-top: 200px;
+        margin-bottom: 76px;
+    }
     .motto {
         width: 37.92;
         font-size: 50px;
@@ -150,31 +152,33 @@ body {
     }
 
     .mobilcont {
-        margin-right: 10%;
+        margin-right: 5%;
         display: flex;
         justify-content: flex-end;
     }
     .mobil{
-        transform: scale(1.2);
+        transform: scale(1.5);
     }
     .buttons{
+        margin-bottom: 0;
         display: flex;
         justify-content: flex-start;
     }
-    .button{
+    .buttonthing{
         position: relative;
         margin-left:19%;
         width: 173px;
 
     }
-    .input{
+    .emailthing{
         margin-left: 7%;
         width:445px ;
     }
-    .contact{
+    .contactus{
         display: flex;
         justify-content: flex-start;
-        margin-left: 7%;
+        margin-left: 8%;
+        margin-bottom: 151px;
     }
     .buttontext{
         display: flex;
