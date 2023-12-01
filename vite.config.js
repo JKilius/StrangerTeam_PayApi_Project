@@ -3,9 +3,9 @@ export default {
         rollupOptions:{
             input: {
                 main: "index.html",
-                about: "index_About.html",
-                contact: "index_Contact.html",
-                pricing: "index_Pricing.html"
+                about: "about.html",
+                contact: "contact.html",
+                pricing: "pricing.html"
             }
         }
     }
