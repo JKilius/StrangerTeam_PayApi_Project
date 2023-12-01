@@ -4,6 +4,7 @@
 
 body{
     background: #EDF3F8;
+    margin: 0;
 }
 
 .about-container{
@@ -59,7 +60,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
-    height: 350px;
+    height: 298px;
     flex-shrink: 0;
 }
 
@@ -68,7 +69,7 @@ body{
 }
 
 .image{
-    padding-top: 65px;
+    padding-top: 48px;
 }
 
 .about-container-hr{
@@ -124,13 +125,18 @@ body{
     padding-bottom: 16px;
 }
 
+.about-padding{
+    padding-top: 8px;
+}
+
 @media screen and (min-width:768px) {
     .about-header{
         font-size: 48px;
         font-weight: 400;
         line-height: 56px; 
         letter-spacing: -0.369px;
-        width: 573px;
+        /* width: 573px; */
+        width: 73%;
         height: 178px;
         flex-shrink: 0;
         /* margin: 0 97px; */
@@ -149,8 +155,8 @@ body{
         letter-spacing: -0.246px;
         width: 223px;
         flex-shrink: 0;
-        margin: 0 39px;
-        padding-top: 54px;
+        margin-left: 39px;
+        padding-top: 55px;
     }
 
     .about-text{
@@ -158,10 +164,12 @@ body{
         text-align: left;
         font-weight: 400;
         line-height: 28px; 
-        width: 456px;
+        width: 91%;
+        /* width: 456px; */
         flex-shrink: 0;
         padding-top: 54px;
         padding-bottom: 10px;
+        margin: 0;
     }
 
     .about-image{
@@ -170,12 +178,16 @@ body{
         background-size: cover;
         max-width: 100%;
         /* width: 769px; */
-        height: 350px;
+        height: 269px;
         flex-shrink: 0;
     }
 
     .business{
-        padding-bottom: 76px;
+        padding-bottom: 92px;
+    }
+
+    .image{
+        padding-top: 66px;
     }
 
     .about-container-hr{
@@ -237,7 +249,8 @@ body{
         font-weight: 400;
         line-height: 56px; 
         letter-spacing: -0.431px;
-        width: 730px;
+        width: 45%;
+        /* width: 730px; */
         height: 189px;
         flex-shrink: 0;
         margin: 0 260px;
@@ -246,10 +259,10 @@ body{
     .about-company{
         text-align: left;
         font-size: 32px;
-        /* font-weight: 400; */
+        font-weight: 400;
         line-height: 40px;
         letter-spacing: -0.246px;
-        /* width: 225px; */
+        width: 225px;
         flex-shrink: 0;
         margin: 0;
         padding-top: 52px;
@@ -262,9 +275,10 @@ body{
         line-height: 28px; 
         width: 635px;
         flex-shrink: 0;
-        padding-top: 56px;
+        padding-top: 51px;
         padding-bottom: 10px;
-        margin: auto;
+        margin-left: 30px;
+        
     }
 
     .about-container-flex{
@@ -283,8 +297,20 @@ body{
         flex-shrink: 0;
     }
 
+    .about-p{
+        padding-top: 47px;
+    }
+
+    .about-bp{
+        padding-top: 45px;
+    }
+
     .business{
-        padding-bottom: 76px;
+        padding-bottom: 100px;
+    }
+
+    .image{
+        padding-bottom: 5px;
     }
 
     .about-container-hr{
@@ -335,4 +361,21 @@ body{
         width: 350px;
         padding-bottom: 16px;
     }
+
+    .about-padding{
+        padding-top: 20px;
+    }
+    
+    .about-pad{
+        padding-top: 46px;
+    }
+    
+    .about-padtext{
+        padding-top: 45px;
+    }
+    
+    .about-text-culture{
+        width: 95%;
+    }
 }
+
