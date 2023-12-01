@@ -12,6 +12,10 @@
 
 @import url(style-contacts.css);
 
+@import url(style-home-main.css);
+
+@import url(style_navigation.css);
+
 :root {
     --DarkPink: #ba4270;
     --LinkWaterWhite: #fbfcfe;

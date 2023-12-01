@@ -207,35 +207,35 @@
     }
 
 .gridElement1{
-    background-image: url(../svg/tesla-desktop.svg);
+    background-image: url(../images/additional/tesla-desktop.svg);
     width: 131px;
     height: 17px;
 }
 .gridElement2{
-    background-image: url(../svg/microsoft-desktop.svg);
+    background-image: url(../images/additional/microsoft-desktop.svg);
     width: 146px;
     height: 31px;
     margin-top: -5px;
 }
 .gridElement3{
-    background-image: url(../svg/hp-desktop.svg);
+    background-image: url(../images/additional/hp-desktop.svg);
     width: 141px;
     height: 27px;
     margin-top: -2px;
 }
 .gridElement4{
-    background-image: url(../svg/oracle-desktop.svg);
+    background-image: url(../images/additional/oracle-desktop.svg);
     width: 132px;
     height: 17px;
 }
 .gridElement5{
-    background-image: url(../svg/google-desktop.svg);
+    background-image: url(../images/additional/google-desktop.svg);
     width: 97px;
     height: 33px;
     margin-left: 20px;    
 }
 .gridElement6{
-    background-image: url(../svg/nvidia-desktop.svg);
+    background-image: url(../images/additional/nvidia-desktop.svg);
     width: 138px;
     height: 26px;
 }
@@ -441,36 +441,36 @@
         margin-top: 40px;
     }
     .gridElement1{
-        background-image: url(../svg/tesla-desktop.svg);
+        background-image: url(../images/additional/tesla-desktop.svg);
         width: 131px;
         height: 17px;
     }
     .gridElement2{
-        background-image: url(../svg/microsoft-desktop.svg);
+        background-image: url(../images/additional/microsoft-desktop.svg);
         width: 148px;
         height: 31px;
         margin-top: -6px;        
     }
     .gridElement3{
-        background-image: url(../svg/hp-desktop.svg);
+        background-image: url(../images/additional/hp-desktop.svg);
         width: 142px;
         height: 27px;
         margin-top: -2px;
     }
     .gridElement4{
-        background-image: url(../svg/oracle-desktop.svg);
+        background-image: url(../images/additional/oracle-desktop.svg);
         width: 132px;
         height: 17px;
     }
     .gridElement5{
-        background-image: url(../svg/google-desktop.svg);
+        background-image: url(../images/additional/google-desktop.svg);
         width: 97px;
         height: 33px;
         margin-left: 20px;
         margin-top: -5px;        
     }
     .gridElement6{
-        background-image: url(../svg/nvidia-desktop.svg);
+        background-image: url(../images/additional/nvidia-desktop.svg);
         width: 139px;
         height: 26px;
         margin-top: -2px;
@@ -675,36 +675,36 @@
         margin-top: 30px;
     }
     .gridElement1{
-        background-image: url(../svg/tesla-phone.svg);
+        background-image: url(../images/additional/tesla-phone.svg);
         width: 107px;
         height: 16px;
     }
     .gridElement2{
-        background-image: url(../svg/microsoft-phone.svg);
+        background-image: url(../images/additional/microsoft-phone.svg);
         width: 119px;
         height: 26px;
         margin-top: -6px;        
     }
     .gridElement3{
-        background-image: url(../svg/hp-phone.svg);
+        background-image: url(../images/additional/hp-phone.svg);
         width: 114px;
         height: 22px;
         margin-top: -2px;
     }
     .gridElement4{
-        background-image: url(../svg/oracle-phone.svg);
+        background-image: url(../images/additional/oracle-phone.svg);
         width: 108px;
         height: 15px;
         margin-left: 10px;
     }
     .gridElement5{
-        background-image: url(../svg/google-phone.svg);
+        background-image: url(../images/additional/google-phone.svg);
         width: 78px;
         height: 27px;
         margin-left: 10px;
     }
     .gridElement6{
-        background-image: url(../svg/nvidia-phone.svg);
+        background-image: url(../images/additional/nvidia-phone.svg);
         width: 112px;
         height: 21px;
     }

@@ -55,7 +55,7 @@ body{
 }
 
 .about-image{
-    background-image:url(assets/images/about/mobile/image-team-members.jpg);
+    background-image: url(../images/about/mobile/image-team-members.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
@@ -165,7 +165,7 @@ body{
     }
 
     .about-image{
-        background-image: url(assets/images/about/tablet/image-team-members.jpg);
+        background-image: url(../images/about/tablet/image-team-members.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         max-width: 100%;
@@ -274,7 +274,7 @@ body{
     }
     
     .about-image{
-        background-image: url(assets/images/about/desktop/image-team-members.jpg);
+        background-image: url(../images/about/desktop/image-team-members.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         max-width: 100%;
