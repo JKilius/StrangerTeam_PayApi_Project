@@ -95,7 +95,7 @@ body {
   .Google {
     width: 96px;
     height: 33px;
-    margin-left: 22px;
+    margin-left: 2px;
   }
 
   .Microsoft {
@@ -289,7 +289,7 @@ body {
 
   .text-partner-container {
     text-align: center;
-    margin: 0px 24px 32px 24px;
+    margin: 32px 24px 32px 24px;
   }
 
   .partner-container-grid {
@@ -302,32 +302,32 @@ body {
   }
 
   .Tesla {
-    min-width: 107px;
+    max-width: 107px;
     min-height: 15px;
   }
 
   .Oracle {
-    min-width: 108px;
+    max-width: 108px;
     min-height: 14px;
   }
 
   .Google {
-    min-width: 79px;
+    max-width: 79px;
     min-height: 27px;
   }
 
   .Microsoft {
-    min-width: 120px;
+    max-width: 120px;
     min-height: 26px;
   }
 
   .HP {
-    min-width: 115px;
+    max-width: 115px;
     min-height: 22px;
   }
 
   .Nvidia {
-    min-width: 113px;
+    max-width: 113px;
     min-height: 22px;
   }
 
