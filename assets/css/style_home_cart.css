@@ -17,14 +17,25 @@ body {
     align-items: center;
     text-align: center;
     font-family: 'Public Sans', sans-serif;
+    margin-bottom: 80px;
 }
 
-.home-cards-cont_1 , .home-cards-cont_2 , .home-cards-cont_3 {
+.home-cards-cont_1 , .home-cards-cont_2 {
+    margin-top: 48px;
     display: inline-block;
     justify-content: space-around;
     height: 300px;
     width: 300px;
 } 
+
+.home-cards-cont_3 {
+    margin-top: 48px;
+    /* margin-bottom: 100px; */
+    display: inline-block;
+    justify-content: space-around;
+    height: 300px;
+    width: 300px;
+}
 
 .home-cont_partA {
     margin-top: 32px;
@@ -83,6 +94,7 @@ body {
     }
     .home-cards-cont_3 {
         min-width: 350px;
+        /* margin-top: 0; */
     }
 
 
