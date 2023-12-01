@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #EDF3F8;
 }
 
@@ -83,7 +83,7 @@ body{
     font-style: normal;
     font-weight: 400;
     line-height: 28px;
-    margin-top: 25px;
+    margin-top: 24px;
     margin-bottom: 24px;
 }
 
@@ -94,7 +94,7 @@ body{
 
 .pricing--cards-include {
     color: var(--SanJuanBlue);
-    list-style-image:url(../images/shared/desktop/icon-check.svg) ;
+    list-style-image: url(../images/shared/desktop/icon-check.svg);
     padding-bottom: 8px;
     padding-left: 24px;
 }
@@ -108,7 +108,6 @@ body{
 
 .pricing--cards-btn {
     text-align: center;
-    /* padding-top: 25px; */
     padding-bottom: 48px;
 }
 
@@ -126,7 +125,7 @@ body{
     border: 1px solid var(--SanJuanBlue);
 }
 
-button:hover{
+button:hover {
     background-color: var(--SanJuanBlue);
     color: var(--LinkWaterWhite);
     cursor: pointer;
@@ -148,62 +147,98 @@ button:hover{
         min-width: 223px;
     }
 
-    .pricing--cards h4{
+    .pricing--cards h4 {
         line-height: 40px;
         margin-bottom: 13px;
     }
 
     .pricing--cards p {
-        min-height: 85px;
+        height: 85px;
         font-weight: 400;
         margin-bottom: 19px;
-        max-height: 85px;
+        min-width: 95%;
+        margin-left: 3%;
     }
 
-    .pricing--cards h1{
+    .pricing--cards h1 {
         font-size: 48px;
         letter-spacing: -0.369px;
         margin-bottom: 21px;
     }
+
+    .pricing--cards-list {
+        margin-top: 20px;
+    }
+
+    .pricing--cards ul {
+        margin-bottom: 15px;
+    }
+
+    .pricing--cards-include {
+        padding-left: 15px;
+        margin-left: 15px;
+    }
+
+    .pricing--cards-exclude {
+        padding-left: 15px;
+        margin-left: 15px;
+    }
 }
 
 @media screen and (min-width: 1440px) {
-    body{
-        margin: 0 165px;
-    }
-    .pricing--header{
+    .pricing--header {
         text-align: start;
-        margin-bottom: 72px;
         font-size: 56px;
         line-height: -0.431px;
+        margin: 0 165px 72px;
     }
-    .pricing--cards{
+
+    .pricing--cards {
         min-width: 350px;
         gap: 30px;
         margin: 0;
+        margin: 0 165px;
     }
-    .pricing--cards h4{
+
+    .pricing--cards h4 {
         text-align: start;
         margin-bottom: 16px;
         font-size: 32px;
         letter-spacing: -0.246px;
     }
+
     .pricing--cards p {
         text-align: start;
-        min-height: 56px;
+        height: 56px;
         margin-bottom: 8px;
         margin-left: 0;
+        min-width: 100%;
     }
-    .pricing--cards h1{
+
+    .pricing--cards h1 {
         text-align: start;
         margin-bottom: 24px;
         font-size: 56px;
         letter-spacing: -0.431px;
     }
+
     .pricing--cards-list {
         justify-content: start;
     }
-    .pricing--cards-btn{
+
+    .pricing--cards-include{
+        margin-left: 0;
+    }
+
+    .pricing--cards-exclude{
+        margin-left: 0;
+    }
+
+    .pricing--cards-btn {
         text-align: start;
+    }
+
+    .pricing--cards ul {
+        margin-left: 22px;
     }
 }
