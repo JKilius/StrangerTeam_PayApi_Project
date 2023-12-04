@@ -83,7 +83,8 @@ body {
 .buttontext {
     font-size: 15px;
     font-weight: bold;
-    
+
+}
 .link{
     text-decoration: none;
     color: var(--sanjuanblue);
