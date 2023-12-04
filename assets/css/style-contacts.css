@@ -4,7 +4,7 @@
 @media (min-width: 1201px){
     body {
         background-color: rgba(238, 243, 248, 255);
-        overflow: hidden;
+        /* overflow: hidden; */
     }
 
     .contact-header {
