@@ -15,11 +15,11 @@ function borderFocusOutName(borderColorB) {
     borderColorB = inputName;
         borderColorB.style.borderBottomColor = "rgb(159, 173, 184)";   
         inputName.classList.remove('inputErrorName');
-        error.classList.add('hidden');
+        error.classList.add('hiddenError');
         inputName.style.removeProperty('--color')
     if (borderColorB.value == '' || borderColorB.value == ' '){ 
     inputName.classList.add('inputErrorName');
-    error.classList.remove('hidden');
+    error.classList.remove('hiddenError');
     inputName.style.borderBottomColor = 'rgba(248,157,157,255)';
     inputName.style.setProperty('--color', 'red')
     }  
@@ -42,11 +42,11 @@ function borderFocusOutEmail(borderColorB) {
     borderColorB = inputEmail;
         borderColorB.style.borderBottomColor = "rgb(159, 173, 184)";   
         inputEmail.classList.remove('inputErrorEmail');
-        errorEmail.classList.add('hidden');
+        errorEmail.classList.add('hiddenError');
         inputEmail.style.removeProperty('--color')
     if (borderColorB.value == '' || borderColorB.value == ' '){ 
     inputEmail.classList.add('inputErrorEmail');
-    errorEmail.classList.remove('hidden');
+    errorEmail.classList.remove('hiddenError');
     inputEmail.style.borderBottomColor = 'rgba(248,157,157,255)';
     inputEmail.style.setProperty('--color', 'red')
     }  
@@ -69,11 +69,11 @@ function borderFocusOutCompany(borderColorB) {
     borderColorB = inputCompany;
         borderColorB.style.borderBottomColor = "rgb(159, 173, 184)";   
         inputCompany.classList.remove('inputErrorCompany');
-        errorCompany.classList.add('hidden');
+        errorCompany.classList.add('hiddenError');
         inputCompany.style.removeProperty('--color')
     if (borderColorB.value == '' || borderColorB.value == ' '){ 
     inputCompany.classList.add('inputErrorCompany');
-    errorCompany.classList.remove('hidden');
+    errorCompany.classList.remove('hiddenError');
     inputCompany.style.borderBottomColor = 'rgba(248,157,157,255)';
     inputCompany.style.setProperty('--color', 'red')
     }  
@@ -96,11 +96,11 @@ function borderFocusOutTitle(borderColorB) {
     borderColorB = inputTitle;
         borderColorB.style.borderBottomColor = "rgb(159, 173, 184)";   
         inputTitle.classList.remove('inputErrorTitle');
-        errorTitle.classList.add('hidden');
+        errorTitle.classList.add('hiddenError');
         inputTitle.style.removeProperty('--color')
     if (borderColorB.value == '' || borderColorB.value == ' '){ 
     inputTitle.classList.add('inputErrorTitle');
-    errorTitle.classList.remove('hidden');
+    errorTitle.classList.remove('hiddenError');
     inputTitle.style.borderBottomColor = 'rgba(248,157,157,255)';
     inputTitle.style.setProperty('--color', 'red')
     }  
@@ -123,11 +123,11 @@ function borderFocusOutMessage(borderColorB) {
     borderColorB = inputMessage;
         borderColorB.style.borderBottomColor = "rgb(159, 173, 184)";   
         inputMessage.classList.remove('inputErrorMessage');
-        errorMessage.classList.add('hidden');
+        errorMessage.classList.add('hiddenError');
         inputMessage.style.removeProperty('--color')
     if (borderColorB.value == '' || borderColorB.value == ' '){ 
     inputMessage.classList.add('inputErrorMessage');
-    errorMessage.classList.remove('hidden');
+    errorMessage.classList.remove('hiddenError');
     inputMessage.style.borderBottomColor = 'rgba(248,157,157,255)';
     inputMessage.style.setProperty('--color', 'red')
     }  
