@@ -1,5 +1,7 @@
-@import url(https://fonts.google.com/specimen/DM+Serif+Display);
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
 @import url(https://fonts.google.com/specimen/Public+Sans);
+
+
 
 @media (min-width: 1281px) {
     body {
