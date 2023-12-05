@@ -1,7 +1,7 @@
-@import url(https://fonts.google.com/specimen/DM+Serif+Display);
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
 @import url(https://fonts.google.com/specimen/Public+Sans);
 
-@media (min-width: 1281px) {
+@media (min-width: 1440px) {
     body {
         background-color: rgba(238, 243, 248, 255);
     }
@@ -208,34 +208,34 @@
         padding-bottom: 208px;
     }
 
-    .gridElement1 {
+    .contact-gridElement1 {
         background-image: url(../images/additional/tesla-desktop.svg);
         width: 131px;
         height: 17px;
         margin-top: 48px;
     }
 
-    .gridElement2 {
+    .contact-gridElement2 {
         background-image: url(../images/additional/microsoft-desktop.svg);
         width: 146px;
         height: 31px;
         margin-top: 40px;
     }
 
-    .gridElement3 {
+    .contact-gridElement3 {
         background-image: url(../images/additional/hp-desktop.svg);
         width: 142px;
         height: 27px;
         margin-top: 43px;
     }
 
-    .gridElement4 {
+    .contact-gridElement4 {
         background-image: url(../images/additional/oracle-desktop.svg);
         width: 132px;
         height: 17px;
     }
 
-    .gridElement5 {
+    .contact-gridElement5 {
         background-image: url(../images/additional/google-desktop.svg);
         width: 97px;
         height: 33px;
@@ -243,7 +243,7 @@
         margin-top: -8px;
     }
 
-    .gridElement6 {
+    .contact-gridElement6 {
         background-image: url(../images/additional/nvidia-desktop.svg);
         width: 138px;
         height: 26px;
@@ -293,299 +293,13 @@
         margin-top: -141px;
     }
 
-    .hidden {
-        display: none;
-    }
-
-}
-@media(min-width: 769px) and (max-width: 1280px){
-    body {
-        background-color: rgba(238, 243, 248, 255);
-    }
-
-    .contact-header {
-        color: #36536B;
-        font-family: DM Serif Display;
-        font-size: 56px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 56px;
-        letter-spacing: -0.431px;
-        margin-top: 47px;
-        margin-left: 165px;
-        width: 730px;
-    }
-
-    #contact-name::placeholder,
-    #contact-email::placeholder,
-    #contact-company-name::placeholder,
-    #contact-title::placeholder,
-    #contact-message::placeholder {
-        color: #36536B;
-        font-family: Public Sans;
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 25px;
-        letter-spacing: -0.115px;
-        opacity: 0.5;
-    }
-
-    #contact-name,
-    #contact-email,
-    #contact-company-name,
-    #contact-title,
-    #contact-message {
-        display: grid;
-        border: none;
-        outline: none;
-        border-bottom: 1px solid #9fadb8;
-        background-color: rgba(238, 243, 248, 255);
-        width: 444px;
-        color: #36536B;
-        font-family: Public Sans;
-    }
-
-    #contact-name {
-        margin-top: 62px;
-    }
-
-    #contact-name:focus {
-        border-bottom: 1px solid #36536B;
-    }
-
-    #contact-name,
-    #contact-email,
-    #contact-company-name,
-    #contact-title {
-        padding-left: 20px;
-        padding-bottom: 20px;
-        padding-top: 6px;
-    }
-
-    #contact-message {
-        padding-left: 20px;
-        padding-bottom: 56px;
-        resize: none;
-    }
-
-    #contact-name,
-    #contact-email,
-    #contact-company-name,
-    #contact-title,
-    #contact-message {
-        margin-bottom: 23px;
-        margin-left: 166px;
-    }
-
-    #checkbox-container {
-        display: block;
-        position: relative;
-        font-size: 22px;
-        user-select: none;
-        color: #36536B;
-        font-family: Public Sans;
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 25px;
-        letter-spacing: -0.115px;
-        width: 398px;
-        height: 50px;
-        display: inline-block;
-        margin-left: 166px;
-        margin-bottom: 11px;
-        padding-left: 50px;
-        margin-top: 15px;
-    }
-
-    #checkbox-container p {
-        margin-top: -12px;
-    }
-
-    #checkbox-container input {
-        position: absolute;
-        opacity: 0;
-        height: 0;
-        width: 0;
-    }
-
-    #checkmark {
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 24px;
-        width: 24px;
-        background-color: #c1cbd5;
-        cursor: pointer;
-    }
-
-    #checkbox-container input:checked~#checkmark {
-        background-color: #BA4270;
-    }
-
-    #checkmark:after {
-        content: "";
-        position: absolute;
-        display: none;
-    }
-
-    #checkbox-container input:checked~#checkmark:after {
-        display: block;
-    }
-
-    #checkbox-container #checkmark:after {
-        left: 8px;
-        top: 4px;
-        width: 5px;
-        height: 10px;
-        border: solid white;
-        border-width: 0 3px 3px 0;
-        -webkit-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-        transform: rotate(45deg);
-    }
-
-    #contact-submit {
-        display: block;
-        color: #36536B;
-        text-align: center;
-        font-family: Public Sans;
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        letter-spacing: -0.115px;
-        border-radius: 24px;
-        border: 1px solid #36536B;
-        padding-left: 50px;
-        padding-right: 50px;
-        padding-top: 17px;
-        padding-bottom: 14px;
-        background-color: rgba(238, 243, 248, 255);
-        margin-left: 168px;
-        margin-top: -1px;
-    }
-
-    #contact-submit:hover {
-        background-color: #36536B;
-        color: #FFFFFF;
-        cursor: pointer;
-    }
-
-    #company-text {
-        color: #36536B;
-        font-family: DM Serif Display;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 32px;
-        letter-spacing: -0.185px;
-        width: 445px;
-        margin-left: 170px;
-        margin-top: 55px;
-        opacity: 0.75;
-    }
-
-    .company-logos-grid {
-        display: grid;
-        grid-template-columns: 191px 208px 196px;
-        grid-template-rows: 120px 70px;
-        margin-left: 170px;
-    }
-
-    .gridElement1 {
-        background-image: url(../images/additional/tesla-desktop.svg);
-        width: 131px;
-        height: 17px;
-        margin-top: 48px;
-    }
-
-    .gridElement2 {
-        background-image: url(../images/additional/microsoft-desktop.svg);
-        width: 146px;
-        height: 31px;
-        margin-top: 40px;
-    }
-
-    .gridElement3 {
-        background-image: url(../images/additional/hp-desktop.svg);
-        width: 142px;
-        height: 27px;
-        margin-top: 43px;
-    }
-
-    .gridElement4 {
-        background-image: url(../images/additional/oracle-desktop.svg);
-        width: 132px;
-        height: 17px;
-    }
-
-    .gridElement5 {
-        background-image: url(../images/additional/google-desktop.svg);
-        width: 97px;
-        height: 33px;
-        margin-left: 26px;
-        margin-top: -8px;
-    }
-
-    .gridElement6 {
-        background-image: url(../images/additional/nvidia-desktop.svg);
-        width: 138px;
-        height: 26px;
-        margin-top: -5px;
-        margin-left: 2px;
-    }
-
-
-    #inputErrorName,
-    #inputErrorEmail,
-    #inputErrorCompany,
-    #inputErrorTitle,
-    #inputErrorMessage {
-        position: absolute;
-        color: #F00;
-        font-family: Public Sans;
-        font-size: 11px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        letter-spacing: -0.085px;
-        opacity: 0.7;
-    }
-
-    #inputErrorName {
-        margin-left: 187px;
-        margin-top: -450px;
-    }
-
-    #inputErrorEmail {
-        margin-left: 187px;
-        margin-top: -385px;
-    }
-
-    #inputErrorCompany {
-        margin-left: 187px;
-        margin-top: -319px;
-    }
-
-    #inputErrorTitle {
-        margin-left: 187px;
-        margin-top: -253px;
-    }
-
-    #inputErrorMessage {
-        margin-left: 187px;
-        margin-top: -141px;
-    }
-
-    .hidden {
+    .hiddenError {
         display: none;
     }
 
 }
 
-@media (min-width: 661px) and (max-width: 768px) {
+@media (min-width: 661px) and (max-width: 1439px) {
     body {
         background-color: rgba(238, 243, 248, 255);
     }
@@ -599,8 +313,8 @@
         font-weight: 400;
         line-height: 56px;
         letter-spacing: -0.369px;
-        margin-top: 100px;
-        margin-left: 109px;
+        margin-top: 104px;
+        margin-left: 108px;
         width: 543px;
     }
 
@@ -648,16 +362,22 @@
 
     #contact-message {
         padding-left: 20px;
-        padding-bottom: 54px;
+        padding-bottom: 59px;
         resize: none;
     }
 
     #contact-name,
-    #contact-email,
     #contact-company-name,
-    #contact-title,
     #contact-message {
         margin-bottom: 27px;
+        margin-left: 161px;
+    }
+    #contact-email{
+        margin-bottom: 29px;
+        margin-left: 161px;
+    }
+    #contact-title{
+        margin-bottom: 24px;
         margin-left: 161px;
     }
 
@@ -678,7 +398,7 @@
         display: inline-block;
         margin-left: 161px;
         margin-bottom: 13px;
-        padding-left: 52px;
+        padding-left: 51px;
         margin-top: 7px;
     }
 
@@ -742,11 +462,11 @@
         border-radius: 24px;
         border: 1px solid #36536B;
         padding-left: 50px;
-        padding-right: 48px;
+        padding-right: 49px;
         padding-top: 15px;
         padding-bottom: 13px;
         background-color: rgba(238, 243, 248, 255);
-        margin-left: 165px;
+        margin-left: 163px;
     }
 
     #contact-submit:hover {
@@ -765,8 +485,8 @@
         line-height: 32px;
         letter-spacing: -0.185px;
         width: 445px;
-        margin-left: 182px;
-        margin-top: 63px;
+        margin-left: 180px;
+        margin-top: 64px;
         opacity: 0.75;
     }
 
@@ -778,47 +498,50 @@
         margin-top: 47px;
     }
 
-    .gridElement1 {
+    .contact-gridElement1 {
         background-image: url(../images/additional/tesla-desktop.svg);
         width: 131px;
         height: 17px;
     }
 
-    .gridElement2 {
+    .contact-gridElement2 {
         background-image: url(../images/additional/microsoft-desktop.svg);
         width: 148px;
         height: 31px;
-        margin-top: -6px;
+        margin-top: -7px;
+        margin-left: -2px;
     }
 
-    .gridElement3 {
+    .contact-gridElement3 {
         background-image: url(../images/additional/hp-desktop.svg);
         width: 142px;
         height: 27px;
-        margin-top: -5px;
+        margin-top: -6px;
+        margin-left: -1px;
     }
 
-    .gridElement4 {
+    .contact-gridElement4 {
         background-image: url(../images/additional/oracle-desktop.svg);
         width: 132px;
         height: 17px;
         margin-top: 10px;
+        margin-left: -2px;
     }
 
-    .gridElement5 {
+    .contact-gridElement5 {
         background-image: url(../images/additional/google-desktop.svg);
         width: 97px;
         height: 33px;
-        margin-left: 26px;
+        margin-left: 24px;
         margin-top: 2px;
     }
 
-    .gridElement6 {
+    .contact-gridElement6 {
         background-image: url(../images/additional/nvidia-desktop.svg);
         width: 139px;
         height: 26px;
         margin-top: 6px;
-        margin-left: 3px;
+        margin-left: 1px;
     }
 
     #inputErrorName,
@@ -862,12 +585,12 @@
         margin-top: -140px;
     }
 
-    .hidden {
+    .hiddenError {
         display: none;
     }
 }
 
-@media (min-width: 1px) and (max-width: 660px) {
+@media (max-width: 660px) {
     body {
         background-color: rgba(238, 243, 248, 255);
     }
@@ -910,7 +633,6 @@
     #contact-title,
     #contact-message {
         display: grid;
-        margin-top: 40px;
         border: none;
         outline: none;
         border-bottom: 1px solid #9fadb8;
@@ -918,6 +640,26 @@
         width: 328px;
         color: #36536B;
         font-family: Public Sans;
+    }
+
+    #contact-name{
+        margin-top: 32px;
+    }
+    
+    #contact-email{
+        margin-top: -11px;
+    }
+
+    #contact-company-name{
+        margin-top: -10px;
+    }
+
+    #contact-title{
+        margin-top: -11px;
+    }
+
+    #contact-message{
+        margin-top: -10px;
     }
 
     #contact-name,
@@ -941,7 +683,7 @@
     #contact-email,
     #contact-company-name,
     #contact-title {
-        margin-bottom: -24px;
+        margin-bottom: 27px;
         margin-left: 23px;
     }
 
@@ -1064,13 +806,13 @@
         margin-top: 36px;
     }
 
-    .gridElement1 {
+    .contact-gridElement1 {
         background-image: url(../images/additional/tesla-phone.svg);
         width: 107px;
         height: 16px;
     }
 
-    .gridElement2 {
+    .contact-gridElement2 {
         background-image: url(../images/additional/microsoft-phone.svg);
         width: 119px;
         height: 26px;
@@ -1078,14 +820,14 @@
         margin-left: 5px;
     }
 
-    .gridElement3 {
+    .contact-gridElement3 {
         background-image: url(../images/additional/hp-phone.svg);
         width: 114px;
         height: 22px;
         margin-left: -3px;
     }
 
-    .gridElement4 {
+    .contact-gridElement4 {
         background-image: url(../images/additional/oracle-phone.svg);
         width: 108px;
         height: 15px;
@@ -1093,7 +835,7 @@
         margin-top: 3px;
     }
 
-    .gridElement5 {
+    .contact-gridElement5 {
         background-image: url(../images/additional/google-phone.svg);
         width: 78px;
         height: 27px;
@@ -1101,7 +843,7 @@
         margin-top: 2px;
     }
 
-    .gridElement6 {
+    .contact-gridElement6 {
         background-image: url(../images/additional/nvidia-phone.svg);
         width: 112px;
         height: 21px;
@@ -1150,7 +892,7 @@
         margin-top: -141px;
     }
 
-    .hidden {
+    .hiddenError {
         display: none;
     }
 }
