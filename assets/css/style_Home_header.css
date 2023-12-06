@@ -11,33 +11,44 @@ body {
     background-color: #f0f4fc;
 }
 
-.mobilcont {
+.home--header-mottotext {
+    font-weight: 400;
+}
+
+.home--header-mobilcont {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.mobil {
+.home--header-mobil {
+    transform: scale(0.56);
     justify-content: center;
     top: 100px;
-    margin-top: 110px;
-    margin-left: 70px;
+    margin-top: -152px;
+    margin-bottom: -327px;
+    margin-left: 29px;
 }
 
-.motto {
-    margin-top: 166px;
-    margin-left: 24px;
-    margin-right: 24px;
+.home--header-motto {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    margin-top: 158px;
+    margin-left: 5px;
+    margin-right: px;
     color: var(--sanjuanblue);
     text-align: center;
     font-family: "DM Serif Display";
-    font-size: 20px;
-    line-height: 40px;
-    letter-spacing: -0.246px;
+    font-size: 16px;
+    line-height: 38px;
+    letter-spacing: -0.250px;
 }
 
-.buttons {
-    margin-top: 24px;
+.home--header-buttons {
+    margin-left: 7px;
+    margin-top: 57px;
     margin-bottom: 24px;
     display: flex;
     flex-direction: column;
@@ -45,145 +56,186 @@ body {
     justify-content: center;
 }
 
-.emailthing {
+.home--header-emailinput {
+
     border-style: none;
     border-radius: 24px;
-    width: 87.2%;
+    width: 323px;
     height: 48px;
 
 }
-.emailthing:focus {
+
+.home--header-emailinput::placeholder {
+    letter-spacing: 0.48px;
+    font-size: 13px;
+    font-family: "Public sans";
+    font-weight: 700;
+    color: #9ba7b3;
+
+}
+
+.home--header-emailinput:focus {
     outline: none;
 }
 
-.buttonthing {
+.home--header-schedulebutton {
+    margin-top: -3px;
     border-style: none;
     border-radius: 24px;
-    width: 87.2%;
+    width: 323px;
     height: 48px;
     background-color: var(--darkpink);
     color: white;
     font-size: 15;
 }
 
-.button:hover {
+.home--header-schedulebutton:hover {
     background-color: var(--charmpink);
 
 }
 
-.contactus {
+.home--header-contactus {
+    font-size: 15px;
+    margin-left: 2px;
     margin-bottom: 79px;
     display: flex;
     justify-content: center;
-    margin-left: 24px;
+    margin-left: px;
     font-family: "Public Sans";
     color: var(--lightsan);
 }
 
-.buttontext {
+.home--header-buttontext {
+    font-family: "Public Sans";
+    margin-left: 1px;
     font-size: 15px;
-    font-weight: bold;
 
 }
-.link{
+
+.home--header-link {
     text-decoration: none;
-    color: var(--sanjuanblue);
+    color: var(--lightsan);
     font-weight: bold;
 }
 
 
-@media only screen and (min-width: 376px) {
-    .mottotext {
+@media only screen and (min-width: 768px) {
+    .home--header-mobil {
+        margin-top: -100px;
+        transform: scale(0.6);
+    }
+
+    .home--header-mottotext {
         text-align: center;
     }
 
-    .motto {
-        margin-left: 15%;
+    .home--header-motto {
+        margin-top: 175px;
+        margin-left: 97px;
         width: 73.31%;
         text-align: center;
-        font-size: 24px;
+        font-size: 24.1px;
         font-style: normal;
         font-weight: 400;
-        line-height: 72px;
-        letter-spacing: -0.369px;
+        line-height: 56px;
+        letter-spacing: -1px;
         justify-content: flex-start;
     }
-    .buttons {
+
+    .home--header-buttons {
+        margin-top: 31px;
         display: flex;
         flex-direction: row;
     }
 
-    .buttonthing {
+    .home--header-schedulebutton {
         position: absolute;
-        width: 173px;
-        right: 26% ;
+        width: 171px;
+        margin-left: 60%;
+        left: 1%;
     }
 
-    .emailthing {
-        width:40%;
+    .home--header-emailinput {
+        width: 430px;
         position: relative;
         left: -1%;
     }
 
-    .contactus {
+    .home--header-contactus {
+        margin-left: -2px;
+        margin-top: -10px;
         margin-bottom: 99px;
+    }
+
+    .home--header-emailinput::placeholder {
+        letter-spacing: 1px;
+    }
+
+    .home--header-contactus {
+        margin-left: -4px;
+        letter-spacing: -0.2px;
     }
 }
 
 @media only screen and (min-width:1440px) {
-    .containerhead{
+    .home--header-containerhead {
         margin-top: 200px;
         margin-bottom: 76px;
     }
-    .motto {
-        width: 37.92;
-        font-size: 50px;
+
+    .home--header-motto {
+        position: static;
+
+        width: 37.92px;
+        font-size: 36px;
         display: flex;
         justify-content: flex-start;
         position: absolute;
-        top: 15%;
+        top: 100px;
         inline-size: 37.91%;
         font-weight: 400;
-        letter-spacing: -0.554px;
-        margin-left: 7%;
-        line-height: 79px;
+        letter-spacing: -0.54px;
+        margin-left: 165px;
+        margin-top: 140px;
+        line-height: 72px;
     }
-    .mottotext{
+
+    .home--header-mottotext {
         text-align: left;
     }
 
-    .mobilcont {
-        margin-right: 5%;
-        display: flex;
+    .home--header-mobilcont {
+        margin-top: -117px;
+        margin-right: 140px;
         justify-content: flex-end;
     }
-    .mobil{
-        transform: scale(1.5);
+
+    .home--header-mobil {
+        transform: scale(1);
     }
-    .buttons{
-        margin-bottom: 0;
-        display: flex;
+
+    .home--header-buttons {
+        margin-left: 85px;
+        margin-top: 65px;
         justify-content: flex-start;
     }
-    .buttonthing{
-        position: relative;
-        margin-left:19%;
+
+    .home--header-schedulebutton {
+        margin-left: 423px;
         width: 173px;
 
     }
-    .emailthing{
-        margin-left: 7%;
-        width:445px ;
+
+    .home--header-emailinput {
+        margin-left: 93px;
+        width: 445px;
     }
-    .contactus{
+
+    .home--header-contactus {
         display: flex;
         justify-content: flex-start;
-        margin-left: 8%;
-        margin-bottom: 151px;
-    }
-    .buttontext{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        margin-left: 192px;
+        margin-bottom: 149px;
+        letter-spacing: 0.03px;
     }
 }
