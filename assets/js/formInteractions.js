@@ -8,7 +8,9 @@ inputName.addEventListener("focusout", borderFocusOutName);
 
 function borderFocusInName(borderColorA) {
     borderColorA = inputName;
-    borderColorA.style.borderBottomColor = 'rgb(54, 83, 107)';          
+    borderColorA.style.borderBottomColor = 'rgb(54, 83, 107)';  
+    badInputName.classList.add('hiddenError');     
+    error.classList.add('hiddenError');
 }
 
 function borderFocusOutName(borderColorB) {
@@ -25,6 +27,16 @@ function borderFocusOutName(borderColorB) {
     }  
 }
 
+inputName.addEventListener("invalid", invalidInputName);
+const badInputName = document.getElementById('inputErrorNameCheck');
+
+function invalidInputName(check) {
+    check = inputName;
+    badInputName.classList.remove('hiddenError'); 
+    check.style.borderBottomColor = 'rgba(248,157,157,255)';
+    error.classList.add('hiddenError');
+}
+
 /* Email text box*/
 
 const inputEmail = document.getElementById("contact-email");
@@ -35,7 +47,9 @@ inputEmail.addEventListener("focusout", borderFocusOutEmail);
 
 function borderFocusInEmail(borderColorA) {
     borderColorA = inputEmail;
-    borderColorA.style.borderBottomColor = 'rgb(54, 83, 107)';          
+    borderColorA.style.borderBottomColor = 'rgb(54, 83, 107)';  
+    badInputEmail.classList.add('hiddenError');   
+    errorEmail.classList.add('hiddenError');       
 }
 
 function borderFocusOutEmail(borderColorB) {
@@ -52,6 +66,16 @@ function borderFocusOutEmail(borderColorB) {
     }  
 }
 
+inputEmail.addEventListener("invalid", invalidInputEmail);
+const badInputEmail = document.getElementById('inputErrorEmailCheck');
+
+function invalidInputEmail(check) {
+    check = inputEmail;
+    badInputEmail.classList.remove('hiddenError'); 
+    check.style.borderBottomColor = 'rgba(248,157,157,255)';
+    errorEmail.classList.add('hiddenError');
+}
+
 /* Company text box*/
 
 const inputCompany = document.getElementById("contact-company-name");
@@ -62,7 +86,9 @@ inputCompany.addEventListener("focusout", borderFocusOutCompany);
 
 function borderFocusInCompany(borderColorA) {
     borderColorA = inputCompany;
-    borderColorA.style.borderBottomColor = 'rgb(54, 83, 107)';          
+    borderColorA.style.borderBottomColor = 'rgb(54, 83, 107)';
+    badInputCompany.classList.add('hiddenError');    
+    errorCompany.classList.add('hiddenError');   
 }
 
 function borderFocusOutCompany(borderColorB) {
@@ -79,6 +105,17 @@ function borderFocusOutCompany(borderColorB) {
     }  
 }
 
+inputCompany.addEventListener("invalid", invalidInputCompany);
+const badInputCompany = document.getElementById('inputErrorCompanyCheck');
+    
+    function invalidInputCompany(check) {
+        check = inputCompany;
+        badInputCompany.classList.remove('hiddenError'); 
+        check.style.borderBottomColor = 'rgba(248,157,157,255)';
+        errorCompany.classList.add('hiddenError');
+    }
+
+
 /* Title text box*/
 
 const inputTitle = document.getElementById("contact-title");
@@ -89,7 +126,9 @@ inputTitle.addEventListener("focusout", borderFocusOutTitle);
 
 function borderFocusInTitle(borderColorA) {
     borderColorA = inputTitle;
-    borderColorA.style.borderBottomColor = 'rgb(54, 83, 107)';          
+    borderColorA.style.borderBottomColor = 'rgb(54, 83, 107)';
+    badInputTitle.classList.add('hiddenError');
+    errorTitle.classList.add('hiddenError');          
 }
 
 function borderFocusOutTitle(borderColorB) {
@@ -106,6 +145,19 @@ function borderFocusOutTitle(borderColorB) {
     }  
 }
 
+inputTitle.addEventListener("invalid", invalidInputTitle);
+const badInputTitle = document.getElementById('inputErrorTitleCheck');
+    
+    function invalidInputTitle(check) {
+        check = inputTitle;
+        badInputTitle.classList.remove('hiddenError'); 
+        check.style.borderBottomColor = 'rgba(248,157,157,255)';
+        errorTitle.classList.add('hiddenError');
+    }
+
+
+
+
 /* Message text box*/
 
 const inputMessage = document.getElementById("contact-message");
@@ -116,7 +168,8 @@ inputMessage.addEventListener("focusout", borderFocusOutMessage);
 
 function borderFocusInMessage(borderColorA) {
     borderColorA = inputMessage;
-    borderColorA.style.borderBottomColor = 'rgb(54, 83, 107)';          
+    borderColorA.style.borderBottomColor = 'rgb(54, 83, 107)';  
+    errorMessage.classList.add('hiddenError');        
 }
 
 function borderFocusOutMessage(borderColorB) {

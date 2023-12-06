@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
-@import url('https://fonts.google.com/specimen/Public+Sans');
-
-
+@import url(https://fonts.google.com/specimen/Public+Sans);
 
 @media (min-width: 1440px) {
     body {
@@ -253,7 +251,10 @@
         margin-left: 2px;
     }
 
-
+    #inputErrorNameCheck,
+    #inputErrorEmailCheck,
+    #inputErrorCompanyCheck,
+    #inputErrorTitleCheck,
     #inputErrorName,
     #inputErrorEmail,
     #inputErrorCompany,
@@ -269,22 +270,25 @@
         letter-spacing: -0.085px;
         opacity: 0.7;
     }
-
+    #inputErrorNameCheck,
     #inputErrorName {
         margin-left: 187px;
         margin-top: -450px;
     }
 
+    #inputErrorEmailCheck,
     #inputErrorEmail {
         margin-left: 187px;
         margin-top: -385px;
     }
 
+    #inputErrorCompanyCheck,
     #inputErrorCompany {
         margin-left: 187px;
         margin-top: -319px;
     }
 
+    #inputErrorTitleCheck,
     #inputErrorTitle {
         margin-left: 187px;
         margin-top: -253px;
@@ -546,6 +550,10 @@
         margin-left: 1px;
     }
 
+    #inputErrorNameCheck,
+    #inputErrorEmailCheck,
+    #inputErrorCompanyCheck,
+    #inputErrorTitleCheck,
     #inputErrorName,
     #inputErrorEmail,
     #inputErrorCompany,
@@ -562,21 +570,25 @@
         opacity: 0.7;
     }
 
+    #inputErrorNameCheck,
     #inputErrorName {
         margin-left: 187px;
         margin-top: -450px;
     }
 
+    #inputErrorEmailCheck,
     #inputErrorEmail {
         margin-left: 187px;
         margin-top: -385px;
     }
 
+    #inputErrorCompanyCheck,
     #inputErrorCompany {
         margin-left: 187px;
         margin-top: -320px;
     }
 
+    #inputErrorTitleCheck,
     #inputErrorTitle {
         margin-left: 187px;
         margin-top: -255px;
@@ -853,6 +865,10 @@
         margin-left: 5px;
     }
 
+    #inputErrorNameCheck,
+    #inputErrorEmailCheck,
+    #inputErrorCompanyCheck,
+    #inputErrorTitleCheck,
     #inputErrorName,
     #inputErrorEmail,
     #inputErrorCompany,
@@ -869,21 +885,25 @@
         opacity: 0.7;
     }
 
+    #inputErrorNameCheck,
     #inputErrorName {
         margin-left: 37px;
         margin-top: -451px;
     }
 
+    #inputErrorEmailCheck,
     #inputErrorEmail {
         margin-left: 37px;
         margin-top: -385px;
     }
 
+    #inputErrorCompanyCheck,
     #inputErrorCompany {
         margin-left: 37px;
         margin-top: -320px;
     }
 
+    #inputErrorTitleCheck,
     #inputErrorTitle {
         margin-left: 37px;
         margin-top: -254px;
