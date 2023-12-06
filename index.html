@@ -1,172 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM+Serif+Display" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Public+Sans" />
-  <link rel="stylesheet" href="assets/css/styleRoot.css" />
-</head>
-
-<body>
-  <header>
-    <div class="container">
-      <div class="logo">
-        <a href="index.html"><img src="assets/images/nav/logo.23aa4a68.svg" alt="Logo" /></a>
-      </div>
-      <nav class="navbar">
-        <ul>
-          <li><a href="pricing.html">Pricing</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-      <div class="red-button">
-        <a href="#" class="red-button">Schedule a Demo</a>
-      </div>
-      <div class="burger-menu">
-        <button class="burger-toggle-btn-close">
-          <img src="/StrangerTeam_PayApi_Project/assets/images/nav/menu.5062cf20.svg" alt="open-menu">
-        </button>
-        <button class="burger-toggle-btn-open">
-          <img src="/StrangerTeam_PayApi_Project/assets/images/nav/Group.svg" alt="close-menu">
-        </button>
-      </div>
-    </div>
-  </header>
-  <main>
-    <div class="home--header-containerhead">
-      <div class="home--header-mobilcont">
-        <img src="/assets/images/home/desktop/illustration-phone-mockup.svg" alt="image of a mobile phone"
-          class="home--header-mobil" />
-      </div>
-      <div class="home--header-motto">
-        <h1 class="home--header-mottotext">
-          Start building with our APIs for absolutely free.
-        </h1>
-      </div>
-      <div>
-        <div class="home--header-buttons">
-          <input type="email" placeholder="Enter email adress" class="home--header-emailinput" /><br />
-          <button type="submit" class="home--header-schedulebutton">
-            <div class="home--header-buttontext">Schedule a Demo </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=DM+Serif+Display"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Public+Sans"
+    />
+    <link rel="stylesheet" href="assets/css/styleRoot.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <a href="index.html"
+            ><img src="assets/images/nav/logo.23aa4a68.svg" alt="Logo"
+          /></a>
+        </div>
+        <nav class="navbar">
+          <ul>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="red-button">
+          <a href="#" class="red-button">Schedule a Demo</a>
+        </div>
+        <div class="burger-menu">
+          <button id="burger-toggle-btn-open">
+            <img src="/assets/images/nav/menu.5062cf20.svg" alt="open-menu">
+          </button>
+          <button id="burger-toggle-btn-close" class="hiddenNav">
+            <img src="/assets/images/nav/Group.svg" alt="close-menu">
           </button>
         </div>
-        <div class="home--header-contactus">
-          Have any questions?
-          <a href="/pages/contacts.html" class="home--header-link">&#160;Contact Us</a>
+      </div>
+      <div id="navSidebar" class="hiddenNav">
+        <a href="pricing.html"></a>
+        <a href="about.html"></a>
+        <a href="contact.html"></a>
+      </div>
+    </header>
+    <main>
+      <div class="containerheader">
+        <div class="mobilcont">
+          <img
+            src="/assets/images/home/desktop/illustration-phone-mockup.svg"
+            alt="image of a mobile phone"
+            class="mobil"
+          />
         </div>
+        <div class="motto">
+          <h1 class="mottotext">
+            Start building with our APIs for absolutely free.
+          </h1>
+        </div>
+        <div>
+          <div class="buttons">
+            <input
+              type="email"
+              placeholder="Email Email adress"
+              class="emailthing"
+            /><br />
+            <button type="submit" class="buttonthing">
+              <div class="buttontext">Schedule Demo</div>
+            </button>
+          </div>
+          <div class="contactus">
+            Have any questions?
+            <a href="/pages/contacts.html" class="link">Contact us</a>
+          </div>
+        </div>
+      </div>
+      <section class="partners">
+        <div class="partners-both">
+          <div class="partner-container-grid">
+            <img
+              src="assets/images/shared/desktop-partners/tesla.svg"
+              class="home--partners-tesla"
+              alt="Tesla"
+            />
+            <img
+              src="assets/images/shared/desktop-partners/microsoft.svg"
+              class="home--partners-microsoft"
+              alt="Microsoft"
+            />
+            <img
+              src="assets/images/shared/desktop-partners/hewlett-packard.svg"
+              class="home--partners-hp"
+              alt="HP"
+            />
+            <img
+              src="assets/images/shared/desktop-partners/oracle.svg"
+              class="home--partners-oracle"
+              alt="Oracle"
+            />
+            <img
+              src="assets/images/shared/desktop-partners/google.svg"
+              class="home--partners-google"
+              alt="Google"
+            />
+            <img
+              src="assets/images/shared/desktop-partners/nvidia.svg"
+              class="home--partners-nvidia"
+              alt="Nvidia"
+            />
+          </div>
+          <div class="text-partner-container">
+            <h1 class="partner-large">Who we work with</h1>
+            <p class="partner-small">
+              Today, millions of people around the world have successfully
+              connected their accounts to apps they love using our API. We
+              provide developers with the tools they need to create easy and
+              accessible experiences for their users.
+            </p>
+            <a class="partner-button" href="/about.html"> About Us</a>
+          </div>
+        </div>
+      </section>
+      <section class="home-container">
+        <div class="home-item-1">
+          <img
+            src="assets/images/home/desktop/illustration-easy-to-implement.svg"
+            class="terminal"
+            alt="terminal"
+          />
+          <div class="home-text-1">
+            <h2 class="home-header">Easy to implement</h2>
+            <p class="home-header-text">
+              Our API comes with just a few lines of code. You'll be up and
+              running in no time. We built our documentation page to integrate
+              payments functionality with ease.
+            </p>
+          </div>
+        </div>
+        <div class="home-item-2">
+          <img
+            src="assets/images/home/desktop/illustration-simple-ui.svg"
+            class="two-phones"
+            alt="two-phones"
+          />
+          <div class="home-text-2">
+            <h2 class="home-header">Simple UI & UX</h2>
+            <p class="home-header-text">
+              Our pre-built form is easy to integrate in your app or website's
+              checkout flow and designed to optimize conversion.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="home-cards-main">
+        <div class="home-cards-cont_1">
+          <img
+            class="home-cards-image"
+            src="assets/images/home/desktop/icon-personal-finances.svg"
+            alt="finances"
+          />
+          <div class="home-cont_partA">Personal Finances</div>
+          <div class="home-cont_partB">
+            Consolidate financial data from multiple sources and categorize
+            transactions up to 2 years of history. Analyze reports to reconcile
+            activities in your account.
+          </div>
+        </div>
+        <div class="home-cards-cont_2">
+          <img
+            class="home-cards-image"
+            src="assets/images/home/desktop/icon-banking-and-coverage.svg"
+            alt="coverage"
+          />
+          <div class="home-cont_partA">Banking & Coverage</div>
+          <div class="home-cont_partB">
+            With our platform, you can speed up account onboarding and support
+            ongoing payments for checking, savings, credit card, and brokerage
+            accounts.
+          </div>
+        </div>
+        <div class="home-cards-cont_3">
+          <img
+            class="home-cards-image"
+            src="assets/images/home/desktop/icon-consumer-payments.svg"
+            alt="payments"
+          />
+          <div class="home-cont_partA">Consumer Payments</div>
+          <div class="home-cont_partB">
+            It's easier to set up secure bank payments with us through a flow
+            designed with the user experience in mind. Customers could instantly
+            authenticate their account.
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="header-footer">
+      <h2>READY TO START?</h2>
+      <div class="footer-email-input">
+        <label for="email"></label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter email address"
+        />
+        <button type="button">Schedule a demo</button>
       </div>
     </div>
-    <section class="partners">
-      <div class="partners-both">
-        <div class="partner-container-grid">
-          <img src="assets/images/shared/desktop-partners/tesla.svg" class="home--partners-tesla" alt="Tesla" />
-          <img src="assets/images/shared/desktop-partners/microsoft.svg" class="home--partners-microsoft"
-            alt="Microsoft" />
-          <img src="assets/images/shared/desktop-partners/hewlett-packard.svg" class="home--partners-hp" alt="HP" />
-          <img src="assets/images/shared/desktop-partners/oracle.svg" class="home--partners-oracle" alt="Oracle" />
-          <img src="assets/images/shared/desktop-partners/google.svg" class="home--partners-google" alt="Google" />
-          <img src="assets/images/shared/desktop-partners/nvidia.svg" class="home--partners-nvidia" alt="Nvidia" />
-        </div>
-        <div class="text-partner-container">
-          <h1 class="partner-large">Who we work with</h1>
-          <p class="partner-small">
-            Today, millions of people around the world have successfully
-            connected their accounts to apps they love using our API. We
-            provide developers with the tools they need to create easy and
-            accessible experiences for their users.
-          </p>
-          <a class="partner-button" href="/about.html"> About Us</a>
+    <footer>
+      <div class="footer-logo">
+        <a class="link-home" href="index.html" onclick="return true;">
+          <img src="assets/images/additional/Group21.svg" alt="logo" />
+        </a>
+        <div class="Footer1">
+          <span
+            ><a class="footer-link-pricing" href="pricing.html"
+              >Pricing</a
+            ></span
+          >
+          <span><a class="footer-link-about" href="about.html">About</a></span>
+          <span
+            ><a class="footer-link-contact" href="contact.html"
+              >Contact</a
+            ></span
+          >
         </div>
       </div>
-    </section>
-    <section class="home-container">
-      <div class="home-item-1">
-        <img src="assets/images/home/desktop/illustration-easy-to-implement.svg" class="terminal" alt="terminal" />
-        <div class="home-text-1">
-          <h2 class="home-header">Easy to implement</h2>
-          <p class="home-header-text">
-            Our API comes with just a few lines of code. You'll be up and
-            running in no time. We built our documentation page to integrate
-            payments functionality with ease.
-          </p>
-        </div>
+      <div class="footer-links">
+        <a class="media-fbook" href="https://www.facebook.com">
+          <img src="assets/images/shared/desktop/facebook.svg" alt="facebook" />
+        </a>
+        <a class="media-tw" href="https://www.twitter.com">
+          <img src="assets//images/shared/desktop/twitter.svg" alt="twitter" />
+        </a>
+        <a class="media-li" href="https://www.linkedin.com">
+          <img src="assets/images/shared/desktop/linkedin.svg" alt="linkedin" />
+        </a>
       </div>
-      <div class="home-item-2">
-        <img src="assets/images/home/desktop/illustration-simple-ui.svg" class="two-phones" alt="two-phones" />
-        <div class="home-text-2">
-          <h2 class="home-header">Simple UI & UX</h2>
-          <p class="home-header-text">
-            Our pre-built form is easy to integrate in your app or website's
-            checkout flow and designed to optimize conversion.
-          </p>
-        </div>
-      </div>
-    </section>
-    <section class="home-cards-main">
-      <div class="home-cards-cont_1">
-        <img class="home-cards-image" src="assets/images/home/desktop/icon-personal-finances.svg" alt="finances" />
-        <div class="home-cont_partA">Personal Finances</div>
-        <div class="home-cont_partB">
-          Consolidate financial data from multiple sources and categorize
-          transactions up to 2 years of history. Analyze reports to reconcile
-          activities in your account.
-        </div>
-      </div>
-      <div class="home-cards-cont_2">
-        <img class="home-cards-image" src="assets/images/home/desktop/icon-banking-and-coverage.svg" alt="coverage" />
-        <div class="home-cont_partA">Banking & Coverage</div>
-        <div class="home-cont_partB">
-          With our platform, you can speed up account onboarding and support
-          ongoing payments for checking, savings, credit card, and brokerage
-          accounts.
-        </div>
-      </div>
-      <div class="home-cards-cont_3">
-        <img class="home-cards-image" src="assets/images/home/desktop/icon-consumer-payments.svg" alt="payments" />
-        <div class="home-cont_partA">Consumer Payments</div>
-        <div class="home-cont_partB">
-          It's easier to set up secure bank payments with us through a flow
-          designed with the user experience in mind. Customers could instantly
-          authenticate their account.
-        </div>
-      </div>
-    </section>
-  </main>
-  <div class="header-footer">
-    <h2>READY TO START?</h2>
-    <div class="footer-email-input">
-      <label for="email"></label>
-      <input type="email" id="email" name="email" placeholder="Enter email address" />
-      <button type="button">Schedule a demo</button>
-    </div>
-  </div>
-  <footer>
-    <div class="footer-logo">
-      <a class="link-home" href="index.html" onclick="return true;">
-        <img src="assets/images/additional/Group21.svg" alt="logo" />
-      </a>
-      <div class="Footer1">
-        <span><a class="footer-link-pricing" href="pricing.html">Pricing</a></span>
-        <span><a class="footer-link-about" href="about.html">About</a></span>
-        <span><a class="footer-link-contact" href="contact.html">Contact</a></span>
-      </div>
-    </div>
-    <div class="footer-links">
-      <a class="media-fbook" href="https://www.facebook.com">
-        <img src="assets/images/shared/desktop/facebook.svg" alt="facebook" />
-      </a>
-      <a class="media-tw" href="https://www.twitter.com">
-        <img src="assets//images/shared/desktop/twitter.svg" alt="twitter" />
-      </a>
-      <a class="media-li" href="https://www.linkedin.com">
-        <img src="assets/images/shared/desktop/linkedin.svg" alt="linkedin" />
-      </a>
-    </div>
-  </footer>
-</body>
-
+    </footer>
+    <script src="assets/js/burgerInteraction.js"></script>  
+  </body>
 </html>

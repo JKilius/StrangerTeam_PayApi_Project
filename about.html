@@ -28,14 +28,18 @@
             <a href="#" class="red-button">Schedule a Demo</a>
           </div>
           <div class="burger-menu">
-            <img src="assets/images/nav/menu.5062cf20.svg" />
-            <ul id="menu">
-              <a href="pricing.html"><li>Pricing</li></a>
-              <a href="about.html"><li>About</li></a>
-              <a href="contact.html"><li>Contact</li></a>
-              <a href="#"><li>Schedule a Demo</li></a>
-            </ul>
+            <button id="burger-toggle-btn-open">
+              <img src="/assets/images/nav/menu.5062cf20.svg" alt="open-menu">
+            </button>
+            <button id="burger-toggle-btn-close" class="hiddenNav">
+              <img src="/assets/images/nav/Group.svg" alt="close-menu">
+            </button>
           </div>
+        </div>
+        <div id="navSidebar" class="hiddenNav">
+            <a href="pricing.html"></a>
+            <a href="about.html"></a>
+            <a href="contact.html"></a>
         </div>
       </header>
       <main>
@@ -137,5 +141,6 @@
         </a>
     </div>
 </footer>
+<script src="assets/js/burgerInteraction.js"></script>  
   </body>
 </html>
