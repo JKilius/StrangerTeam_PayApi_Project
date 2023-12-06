@@ -1,17 +1,23 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
+body {
     background: #EDF3F8;
+    margin: 0;
 }
 
-.about-container{
+main {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.about-container {
     display: flex;
     flex-direction: column;
 }
 
-.about-header{
+.about-header {
     color: #36536B;
     text-align: center;
     font-family: DM Serif Display;
@@ -26,7 +32,7 @@ body{
     margin: auto;
 }
 
-.about-company{
+.about-company {
     color: #36536B;
     text-align: center;
     font-family: DM Serif Display;
@@ -40,21 +46,21 @@ body{
     padding-top: 40px;
 }
 
-.about-text{
+.about-text {
     color: #6C8294;
     text-align: center;
     font-family: Public Sans;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
-    line-height: 28px; 
+    line-height: 28px;
     width: 327px;
     margin: auto;
     padding-top: 16px;
     padding-bottom: 8px;
 }
 
-.about-image{
+.about-image {
     background-image: url(../images/about/mobile/image-team-members.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -63,54 +69,54 @@ body{
     flex-shrink: 0;
 }
 
-.business{
+.about-business {
     padding-bottom: 76px;
 }
 
-.image{
+.about-image-p {
     padding-top: 48px;
 }
 
-.about-container-hr{
+.about-container-hr {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.about-hr{
+.about-hr {
     border-top: 1px solid #37546d41;
     width: 327px;
     flex-shrink: 0;
 }
 
-.about-hr-td{
+.about-hr-td {
     border-top: none;
     width: 327px;
     flex-shrink: 0;
 }
 
-.about-hr-m{
+.about-hr-m {
     border-bottom: 1px solid #37546d41;
     width: 327px;
     flex-shrink: 0;
 }
 
-.about-statisticstitle{
+.about-statisticstitle {
     color: #36536B;
     text-align: center;
     font-family: Public Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 28px; 
+    line-height: 28px;
     width: 327px;
     opacity: 0.7;
     margin: auto;
     padding-top: 16px;
 }
 
-.about-statistics{
+.about-statistics {
     color: #BA4270;
     text-align: center;
     font-family: DM Serif Display;
@@ -124,29 +130,32 @@ body{
     padding-bottom: 16px;
 }
 
-.about-padding{
+.about-padding {
     padding-top: 8px;
 }
 
 @media screen and (min-width:768px) {
-    .about-header{
-        font-size: 48px;
-        font-weight: 400;
-        line-height: 56px; 
-        letter-spacing: -0.369px;
-        /* width: 573px; */
-        width: 73%;
-        height: 178px;
-        flex-shrink: 0;
-        /* margin: 0 97px; */
+    main {
+        padding-top: 80px;
+        padding-bottom: 72px;
     }
 
-    .about-container-flex{
+    .about-header {
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 56px;
+        letter-spacing: -0.369px;
+        width: 553px;
+        height: 178px;
+        flex-shrink: 0;
+    }
+
+    .about-container-flex {
         display: flex;
         gap: 10px;
     }
 
-    .about-company{
+    .about-company {
         text-align: left;
         font-size: 32px;
         font-weight: 400;
@@ -158,78 +167,81 @@ body{
         padding-top: 55px;
     }
 
-    .about-text{
+    .about-text {
         font-size: 15px;
         text-align: left;
         font-weight: 400;
-        line-height: 28px; 
-        width: 91%;
-        /* width: 456px; */
+        line-height: 28px;
+        width: 456px;
         flex-shrink: 0;
         padding-top: 54px;
         padding-bottom: 10px;
         margin: 0;
     }
 
-    .about-image{
+    .about-image {
         background-image: url(../images/about/tablet/image-team-members.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         max-width: 100%;
-        /* width: 769px; */
-        height: 269px;
+        height: 267px;
         flex-shrink: 0;
     }
 
-    .business{
+    .about-business {
         padding-bottom: 92px;
+        width: 436px;
     }
 
-    .image{
-        padding-top: 66px;
+    .about-text-culture {
+        width: 453px;
     }
 
-    .about-container-hr{
+    .about-image-p {
+        padding-top: 64px;
+    }
+
+    .about-container-hr {
         display: flex;
         flex-direction: row;
         gap: 10px;
         justify-content: space-around;
         margin: 0 39px;
     }
-   
-    .about-hr{
-        border-top: 1px solid #37546d41;
-        border-bottom: 1px solid #37546d41;
-        width: 223px;
-        flex-shrink: 0;
-    }
-    
-    .about-hr-td{
-        border-top: 1px solid #37546d41;
-        border-bottom: 1px solid #37546d41;
-        width: 223px;
-        flex-shrink: 0;
-    }
-    
-    .about-hr-m{
+
+    .about-hr {
         border-top: 1px solid #37546d41;
         border-bottom: 1px solid #37546d41;
         width: 223px;
         flex-shrink: 0;
     }
 
-    .about-statisticstitle{
+    .about-hr-td {
+        border-top: 1px solid #37546d41;
+        border-bottom: 1px solid #37546d41;
+        width: 223px;
+        flex-shrink: 0;
+    }
+
+    .about-hr-m {
+        border-top: 1px solid #37546d41;
+        border-bottom: 1px solid #37546d41;
+        width: 223px;
+        flex-shrink: 0;
+    }
+
+    .about-statisticstitle {
         text-align: left;
         font-size: 16px;
         font-weight: 100;
-        line-height: 28px; 
+        line-height: 28px;
         width: 223px;
         opacity: 0.7;
         margin: 0;
         padding-top: 16px;
     }
-    
-    .about-statistics{
+
+    .about-statistics {
         text-align: left;
         font-size: 56px;
         font-weight: 400;
@@ -242,20 +254,24 @@ body{
 }
 
 @media screen and (min-width: 1440px) {
-    .about-header{
+    main {
+        padding-top: 82px;
+        padding-bottom: 100px;
+    }
+
+    .about-header {
         text-align: left;
         font-size: 56px;
         font-weight: 400;
-        line-height: 56px; 
+        line-height: 56px;
         letter-spacing: -0.431px;
-        width: 45%;
-        /* width: 730px; */
+        width: 660px;
         height: 189px;
         flex-shrink: 0;
         margin: 0 260px;
     }
 
-    .about-company{
+    .about-company {
         text-align: left;
         font-size: 32px;
         font-weight: 400;
@@ -267,91 +283,90 @@ body{
         padding-top: 52px;
     }
 
-    .about-text{
+    .about-text {
         font-size: 15px;
         text-align: left;
         font-weight: 400;
-        line-height: 28px; 
+        line-height: 28px;
         width: 635px;
         flex-shrink: 0;
         padding-top: 51px;
         padding-bottom: 10px;
         margin-left: 30px;
-        
+
     }
 
-    .about-container-flex{
+    .about-container-flex {
         display: flex;
         gap: 30px;
         margin: 0 260px;
     }
-    
-    .about-image{
+
+    .about-image {
         background-image: url(../images/about/desktop/image-team-members.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         max-width: 100%;
-        /* width: 769px; */
         height: 500px;
         flex-shrink: 0;
     }
 
-    .about-p{
+    .about-p {
         padding-top: 47px;
     }
 
-    .about-bp{
+    .about-bp {
         padding-top: 45px;
     }
 
-    .business{
+    .about-business {
         padding-bottom: 100px;
     }
 
-    .image{
-        padding-bottom: 5px;
+    .about-image-p {
+        padding-bottom: 6px;
     }
 
-    .about-container-hr{
+    .about-container-hr {
         display: flex;
         flex-direction: row;
         gap: 30px;
         justify-content: space-around;
         margin: 0 165px;
     }
-   
-    .about-hr{
-        border-top: 1px solid #37546d41;
-        border-bottom: 1px solid #37546d41;
-        width: 350px;
-        flex-shrink: 0;
-    }
-    
-    .about-hr-td{
-        border-top: 1px solid #37546d41;
-        border-bottom: 1px solid #37546d41;
-        width: 350px;
-        flex-shrink: 0;
-    }
-    
-    .about-hr-m{
+
+    .about-hr {
         border-top: 1px solid #37546d41;
         border-bottom: 1px solid #37546d41;
         width: 350px;
         flex-shrink: 0;
     }
 
-    .about-statisticstitle{
+    .about-hr-td {
+        border-top: 1px solid #37546d41;
+        border-bottom: 1px solid #37546d41;
+        width: 350px;
+        flex-shrink: 0;
+    }
+
+    .about-hr-m {
+        border-top: 1px solid #37546d41;
+        border-bottom: 1px solid #37546d41;
+        width: 350px;
+        flex-shrink: 0;
+    }
+
+    .about-statisticstitle {
         text-align: left;
         font-size: 16px;
         font-weight: 100;
-        line-height: 28px; 
+        line-height: 28px;
         width: 350px;
         opacity: 0.7;
         padding-top: 16px;
     }
-    
-    .about-statistics{
+
+    .about-statistics {
         text-align: left;
         font-size: 56px;
         font-weight: 400;
@@ -361,20 +376,19 @@ body{
         padding-bottom: 16px;
     }
 
-    .about-padding{
+    .about-padding {
         padding-top: 20px;
     }
-    
-    .about-pad{
+
+    .about-pad {
+        padding-top: 47px;
+    }
+
+    .about-padtext {
         padding-top: 46px;
     }
-    
-    .about-padtext{
-        padding-top: 45px;
-    }
-    
-    .about-text-culture{
-        width: 95%;
+
+    .about-text-culture {
+        width: 627px;
     }
 }
-
