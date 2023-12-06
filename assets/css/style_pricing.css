@@ -127,7 +127,7 @@ body {
     border: 1px solid var(--SanJuanBlue);
 }
 
-button:hover {
+.pricing--cards-button:hover {
     background-color: var(--SanJuanBlue);
     color: var(--LinkWaterWhite);
     cursor: pointer;

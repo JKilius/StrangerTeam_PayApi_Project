@@ -23,8 +23,18 @@
             <a href="#" class="red-button">Schedule a Demo</a>
           </div>
           <div class="burger-menu">
-            <img src="assets/images/nav/menu.5062cf20.svg" />
+            <button id="burger-toggle-btn-open">
+              <img src="/assets/images/nav/menu.5062cf20.svg" alt="open-menu">
+            </button>
+            <button id="burger-toggle-btn-close" class="hiddenNav">
+              <img src="/assets/images/nav/Group.svg" alt="close-menu">
+            </button>
           </div>
+        </div>
+        <div id="navSidebar" class="hiddenNav">
+            <a href="pricing.html"></a>
+            <a href="about.html"></a>
+            <a href="contact.html"></a>
         </div>
       </header>
     <h1 class="contact-header">Submit a help request and we’ll get in touch shortly.</h1>
@@ -66,7 +76,8 @@
         <div class="contact-gridElement6"></div>
     </div>
     </div>
-    <script src="assets/js/formInteractions.js"></script>    
+    <script src="assets/js/formInteractions.js"></script>
+    <script src="assets/js/burgerInteraction.js"></script>    
     <div class="header-footer">
         <h2>READY TO START?</h2>
         <div class="email-input">

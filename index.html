@@ -33,13 +33,18 @@
           <a href="#" class="red-button">Schedule a Demo</a>
         </div>
         <div class="burger-menu">
-          <button class="burger-toggle-btn-close">
-            <img src="/StrangerTeam_PayApi_Project/assets/images/nav/menu.5062cf20.svg" alt="open-menu">
+          <button id="burger-toggle-btn-open">
+            <img src="/assets/images/nav/menu.5062cf20.svg" alt="open-menu">
           </button>
-          <button class="burger-toggle-btn-open">
-            <img src="/StrangerTeam_PayApi_Project/assets/images/nav/Group.svg" alt="close-menu">
+          <button id="burger-toggle-btn-close" class="hiddenNav">
+            <img src="/assets/images/nav/Group.svg" alt="close-menu">
           </button>
         </div>
+      </div>
+      <div id="navSidebar" class="hiddenNav">
+        <a href="pricing.html"></a>
+        <a href="about.html"></a>
+        <a href="contact.html"></a>
       </div>
     </header>
     <main>
@@ -236,5 +241,6 @@
         </a>
       </div>
     </footer>
+    <script src="assets/js/burgerInteraction.js"></script>  
   </body>
 </html>

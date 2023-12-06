@@ -45,7 +45,7 @@
     font-size: 15px;
     padding: 8px 9.5px;
   }
-   
+  
   .navbar a:hover {
     color: black;
     transition: color 0.3s ease;
@@ -188,7 +188,30 @@
       display: none;
    
     }
-   
+    #burger-toggle-btn-close,
+    #burger-toggle-btn-open{
+      border: none;
+      cursor: pointer;
+      background-color: transparent;
+    }
+    #burger-toggle-btn-close{
+      z-index: 2;
+      position: fixed;
+    }
 
-   
+    #navSidebar{
+      height: 100%;
+      width: 76%;
+      position: fixed;
+      top: 0;
+      right: 0;
+      overflow-x: hidden;
+      z-index: 1;
+      background-color: rgba(27, 38, 47, 1);
+    }
+
+    .hiddenNav{
+      display: none;
+    }
+
   }
