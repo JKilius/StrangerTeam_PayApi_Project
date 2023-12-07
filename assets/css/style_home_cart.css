@@ -4,17 +4,17 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+ 
 body {
     margin: 0 auto;
     background-color: var(--LinkWaterWhite);
 }
-
+ 
 .home-cards-image {
     display: inline;
     padding: 0;
 }
-
+ 
 .home-cards-main {
     display: flex;
     flex-direction: column;
@@ -25,34 +25,27 @@ body {
     margin-bottom: 80px;
     margin-top: 80px;
 }
-
+ 
 .home-cards-cont_1 {
-    margin-top: 48px;
+    margin-top: 44px;
     display: inline-block;
     justify-content: space-around;
-    /* height: 300px; */
-    /* width: 300px; */
-} 
-
+}
+ 
 .home-cards-cont_2 {
-    margin-top: 48px;
+    margin-top: 41px;
     display: inline-block;
     justify-content: space-around;
-    /* height: 300px; */
-    /* width: 300px; */
 }
-
+ 
 .home-cards-cont_3 {
-    margin-top: 46px;
-    /* margin-bottom: 100px; */
+    margin-top: 41px;
     display: inline-block;
     justify-content: space-around;
-    /* height: 300px; */
-    /* width: 300px; */
 }
-
+ 
 .home-cont_partA {
-    margin-top: 33px;
+    margin-top: 29px;
     color: var(--SanJuanBlue);
     text-align: center;
     font-family: 'Public Sans', sans-serif;
@@ -63,7 +56,7 @@ body {
     letter-spacing: -0.138px;
     flex-shrink: 0;
 }
-
+ 
 .home-cont_partB {
     margin-top: 17px;
     width: 328px;
@@ -80,23 +73,25 @@ body {
     letter-spacing: -0.115px;
     flex-shrink: 0;
 }
-
+/* Tablet */
 @media screen and (min-width:768px) {
     .home-cards-main {
         flex-direction: row;
-        gap: 21px;
+        gap: 10px;
         margin-bottom: 100px;
-    } 
+        margin-left: 14px;
+    }
     .home-cards-image {
         width: 88px;
         height: 88px;
-
     }
+ 
     .home-cont_partB {
+        margin-top: 16px;
         width: 223px;
         height: 125px;
     }  
-
+ 
     .home-cards-cont_1 {
         min-width: 223px;
         margin-top: 100px;
@@ -110,9 +105,9 @@ body {
         margin-top: 100px;
     }
 }
-
+/* Desktop */
 @media screen and (min-width:1440px) {
-
+ 
     .home-cards-main {
         margin-top: 145px;
         margin-bottom: 96px;
@@ -122,10 +117,13 @@ body {
         width: 106px;
         height: 106px;
     }
+    .home-cards-imgDesk{
+        margin-right:9px;
+    }
     .home-cont_partB {
         width: 350px;
         height: 100px;
     }  
-
-
+ 
+ 
 }

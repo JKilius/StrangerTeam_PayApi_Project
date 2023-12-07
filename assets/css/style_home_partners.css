@@ -9,7 +9,17 @@
   letter-spacing: -0.115px;
   text-decoration: none;
 }
-
+.partner-button:hover {
+  color: var(--MirageBlue);
+    text-align: center;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.115px;
+    text-decoration: none;
+}
 
 @media (min-width: 1440px) {
 
@@ -26,15 +36,6 @@
   }
 
   .partner-button:hover {
-    color: var(--MirageBlue);
-    text-align: center;
-    font-family: Public Sans;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: -0.115px;
-    text-decoration: none;
     width: 129px;
     height: 48px;
     flex-shrink: 0;
@@ -129,9 +130,6 @@
   .partners {
     min-height: 472px;
     background-color: var(--MirageBlue);
-    /* background-image: url(https://payapi-multipage-website.netlify.app/static/media/bg-pattern-circle.2f3a4c70.svg);
-    background-repeat: no-repeat;
-    background-position: -36% 116%; */
   }
 }
 @media (min-width: 768px) and (max-width: 1439px) {
@@ -148,6 +146,18 @@
     text-align: center;
     margin-top: 32px;
     margin-bottom: 88px;
+  }
+  .partner-button:hover {
+    width: 129px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    border: 1px solid var(--LinkWaterWhite);
+    background-color: var(--LinkWaterWhite);
+    display: inline-block;
+    line-height: 46px;
+    text-align: center;
+    margin-top: 32px;
   }
 
   .partner-large {
@@ -245,7 +255,20 @@
     margin: 0 auto;
     display: inline-block;
     line-height: 46px;
-    margin-top: 35px;
+    margin-top: 32.9px;
+    margin-bottom: 80px;
+  }
+  .partner-button:hover {
+    width: 129px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    border: 1px solid var(--LinkWaterWhite);
+    background-color: var(--LinkWaterWhite);
+    display: inline-block;
+    line-height: 46px;
+    text-align: center;
+    margin-top: 31px;
     margin-bottom: 80px;
   }
 
@@ -260,7 +283,7 @@
     letter-spacing: -0.246px;
     text-align: center;
     margin-bottom: 16px;
-    margin-top: 58px;
+    margin-top: 56px;
   }
 
   .partner-small {
@@ -293,7 +316,7 @@
     max-width: 107px;
     min-height: 15px;
     margin-left: 27px;
-    margin-top: 18px;
+    margin-top: 14px;
   }
 
   .home--partners-oracle {
@@ -307,7 +330,7 @@
     max-width: 79px;
     min-height: 27px;
     margin-left: 12px;
-    margin-top: 20px;
+    margin-top: 20.7px;
   }
 
   .home--partners-microsoft {
@@ -320,7 +343,7 @@
   .home--partners-hp {
     max-width: 115px;
     min-height: 22px;
-    margin-left: 30px;
+    margin-left: 33px;
     margin-bottom: -25px;
   }
 

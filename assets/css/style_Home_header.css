@@ -10,21 +10,25 @@ body {
     overflow-y: auto;
     background-color: #f0f4fc;
 }
+.home--header-mottotext{
+    font-weight: 400;
+}
 
-.mobilcont {
+.home--header-mobilcont {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.mobil {
+.home--header-mobil {
     justify-content: center;
     top: 100px;
-    margin-top: 110px;
-    margin-left: 70px;
+    margin-top: -10px;
+    margin-bottom: -180px;
+    /* margin-left: 70px; */
 }
 
-.motto {
+.home--header-motto {
     margin-top: 166px;
     margin-left: 24px;
     margin-right: 24px;
@@ -36,7 +40,7 @@ body {
     letter-spacing: -0.246px;
 }
 
-.buttons {
+.home--header-buttons {
     margin-top: 24px;
     margin-bottom: 24px;
     display: flex;
@@ -45,33 +49,40 @@ body {
     justify-content: center;
 }
 
-.emailthing {
+.home--header-emailinput {
+
     border-style: none;
     border-radius: 24px;
     width: 87.2%;
     height: 48px;
 
 }
-.emailthing:focus {
+.home--header-emailinput::placeholder{
+    font-family: "Public sans";
+    font-weight: 700;
+    color: #9ba7b3;
+
+}
+.home--header-emailinput:focus {
     outline: none;
 }
 
-.buttonthing {
+.home--header-schedulebutton {
     border-style: none;
     border-radius: 24px;
     width: 87.2%;
-    height: 48px;
+    height: 58px;
     background-color: var(--darkpink);
     color: white;
     font-size: 15;
 }
 
-.button:hover {
+.home--header-schedulebutton:hover {
     background-color: var(--charmpink);
 
 }
 
-.contactus {
+.home--header-contactus {
     margin-bottom: 79px;
     display: flex;
     justify-content: center;
@@ -80,24 +91,24 @@ body {
     color: var(--lightsan);
 }
 
-.buttontext {
+.home--header-buttontext {
     font-size: 15px;
     font-weight: bold;
 
 }
-.link{
+.home--header-link{
     text-decoration: none;
     color: var(--sanjuanblue);
     font-weight: bold;
 }
 
 
-@media only screen and (min-width: 376px) {
-    .mottotext {
+@media only screen and (min-width: 768px) {
+    .home--header-mottotext {
         text-align: center;
     }
 
-    .motto {
+    .home--header-motto {
         margin-left: 15%;
         width: 73.31%;
         text-align: center;
@@ -108,82 +119,82 @@ body {
         letter-spacing: -0.369px;
         justify-content: flex-start;
     }
-    .buttons {
+    .home--header-buttons {
         display: flex;
         flex-direction: row;
     }
 
-    .buttonthing {
+    .home--header-schedulebutton {
         position: absolute;
         width: 173px;
         right: 26% ;
+        left: 1%;
     }
 
-    .emailthing {
+    .home--header-emailinput {
         width:40%;
         position: relative;
         left: -1%;
     }
 
-    .contactus {
+    .home--header-contactus {
         margin-bottom: 99px;
     }
 }
 
 @media only screen and (min-width:1440px) {
-    .containerhead{
-        margin-top: 200px;
-        margin-bottom: 76px;
+    .home--header-containerhead{
+        /* margin-top: 200px;
+        margin-bottom: 76px; */
     }
-    .motto {
+    .home--header-motto {
         width: 37.92;
-        font-size: 50px;
+        font-size: 37px;
         display: flex;
         justify-content: flex-start;
         position: absolute;
-        top: 15%;
+        top: 100px;
         inline-size: 37.91%;
         font-weight: 400;
-        letter-spacing: -0.554px;
+        letter-spacing: -0.54px;
         margin-left: 7%;
-        line-height: 79px;
+        line-height: 72px;
     }
-    .mottotext{
+    .home--header-mottotext{
         text-align: left;
     }
 
-    .mobilcont {
+    .home--header-mobilcont {
         margin-right: 5%;
         display: flex;
         justify-content: flex-end;
     }
-    .mobil{
-        transform: scale(1.5);
+    .home--header-mobil{
+        justify-content: flex-end;
+
     }
-    .buttons{
+    .home--header-buttons{
         margin-bottom: 0;
-        display: flex;
         justify-content: flex-start;
     }
-    .buttonthing{
-        position: relative;
-        margin-left:19%;
+    .home--header-schedulebutton{
+        margin-left: 19%;
         width: 173px;
 
     }
-    .emailthing{
+    .home--header-emailinput{
         margin-left: 7%;
         width:445px ;
     }
-    .contactus{
+    .home--header-contactus{
         display: flex;
         justify-content: flex-start;
         margin-left: 8%;
         margin-bottom: 151px;
     }
-    .buttontext{
+    /* .home--header-buttontext{
         display: flex;
         justify-content: center;
         align-items: center;
-    }
+    } */
 }
