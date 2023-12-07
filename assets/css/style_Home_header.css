@@ -22,17 +22,21 @@ body {
 }
 
 .home--header-mobil {
-    transform: scale(0.538);
+    /* transform: scale(0.538); */
     justify-content: center;
-    margin-top: -196px;
-    margin-bottom: -357px;
+    margin-top: -83px;
+    margin-bottom: -20px;
     margin-left: 23px;
+    width:200px; 
+    height: 320px;
+    display: block;
+
 }
 
 .home--header-motto {
-    margin-top: 178px;
+    margin-top: -10px;
     margin-left: 25px;
-    margin-right: 25px;
+    margin-right: 24px;
     color: var(--sanjuanblue);
     text-align: center;
     font-family: "DM Serif Display";
@@ -44,8 +48,8 @@ body {
 
 .home--header-buttons {
     margin-left: -1px;
-    margin-top: 25px;
-    margin-bottom: 24px;
+    margin-top: 23px;
+    margin-bottom: 26px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -53,6 +57,7 @@ body {
 }
 
 .home--header-emailinput {
+    margin-bottom: 1px;
     padding-left: 27px;
     border-style: none;
     border-radius: 24px;
@@ -75,7 +80,6 @@ body {
 }
 
 .home--header-schedulebutton {
-    margin-top: -3px;
     border-style: none;
     border-radius: 24px;
     width: 327px;
@@ -83,6 +87,7 @@ body {
     background-color: var(--darkpink);
     color: white;
     font-size: 15px;
+    margin-top: -3px;
 }
 
 .home--header-schedulebutton:hover {
@@ -93,7 +98,8 @@ body {
 .home--header-contactus {
     font-size: 15px;
     margin-left:-5px;
-    margin-bottom: 79px;
+    margin-top: -2px;
+    margin-bottom: 78px;
     display: flex;
     justify-content: center;
     font-family: "Public Sans";
@@ -105,7 +111,6 @@ body {
     font-family: "Public Sans";
     margin-left: 4px;
     font-size: 15px;
-
 }
 
 .home--header-link {
@@ -117,9 +122,11 @@ body {
 
 @media only screen and (min-width: 768px) {
     .home--header-mobil {
-        margin-left: 47px;
-        margin-top: -157px;
-        transform: scale(0.6);
+        margin-left: 30px;
+        margin-top: -100px;
+        width: 250px;
+        height: 390px;
+        /* transform: scale(0.6); */
     }
 
     .home--header-mottotext {
@@ -127,20 +134,22 @@ body {
     }
 
     .home--header-motto {
-        margin-top: 210px;
-        margin-left: 107px;
+        margin-top: 8px;
+        margin-left: 13.3%;
         width: 73.31%;
-        text-align: center;
         font-size: 24.1px;
         font-style: normal;
         font-weight: 400;
         line-height: 56px;
         letter-spacing: -0.5px;
         justify-content: flex-start;
+        justify-content: center;
+        align-items: center;
     }
 
     .home--header-buttons {
-        margin-top: 33px;
+        margin-left: -19px;
+        margin-top: 34px;
         display: flex;
         flex-direction: row;
     }
@@ -148,7 +157,7 @@ body {
     .home--header-schedulebutton {
         position: absolute;
         width: 173px;
-        margin-left: 56.8%;
+        margin-left: 55.5%;
         left: 1%;
     }
 
@@ -158,11 +167,11 @@ body {
         left: 0.3%;
     }
 
-    .home--header-contactus {
-        margin-left:-3px;
-        margin-top: -10px;
-        margin-bottom: 99px;
-    }
+    /* .home--header-contactus {
+        margin-left:-1px;
+        margin-top: -5px;
+        margin-bottom: 97px;
+    } */
 
     .home--header-emailinput::placeholder {
         letter-spacing: 0.9px;
@@ -170,9 +179,10 @@ body {
     }
 
     .home--header-contactus {
-        margin-top: -9px;
-        margin-left: 15px;
-        letter-spacing: 0.1px;
+        margin-top: -12px;
+        margin-left:-1px;
+        letter-spacing: 0.08px;
+        margin-bottom: 100px;
     }
     .home--header-buttontext{
         margin-left: 2px;
@@ -181,7 +191,7 @@ body {
 
 @media only screen and (min-width:1440px) {
     .home--header-containerhead {
-        margin-top: 200px;
+        margin-top: 60px;
         margin-bottom: 76px;
     }
 
@@ -196,7 +206,7 @@ body {
         inline-size: 37.91%;
         font-weight: 400;
         letter-spacing: -0.54px;
-        margin-left: 166px;
+        margin-left: 165px;
         margin-top: 140px;
         line-height: 72px;
     }
@@ -207,24 +217,25 @@ body {
 
     .home--header-mobilcont {
         margin-top: -74px;
-        margin-right: 139px;
+        margin-right: 157px;
         justify-content: flex-end;
     }
 
     .home--header-mobil {
-        transform: scale(1);
+    height: 660px;
+    width: 420px;
     }
 
     .home--header-buttons {
-        margin-left: 69px;
-        margin-top: 95px;
+        margin-left: 68px;
+        margin-top: -242px;
         justify-content: flex-start;
     }
 
     .home--header-schedulebutton {
-        margin-left: 29.8%;
+        margin-top: -1px;
+        margin-left: 423px;
         width: 173px;
-
     }
 
     .home--header-emailinput {
@@ -236,13 +247,12 @@ body {
         display: flex;
         justify-content: flex-start;
         margin-left: 192px;
-        margin-bottom: 152px;
+        margin-bottom: 153px;
         letter-spacing: 0.04px;
     }
     .home--header-buttontext{
         margin-top: 1px;
         margin-left: 2px;
-
         letter-spacing: 0.2px;
     }
 }
