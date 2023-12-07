@@ -1,114 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact page</title>
-    <link rel="stylesheet" href="assets/css/styleRoot.css">
-</head>
-<body>
+    <link rel="stylesheet" href="assets/css/styleRoot.css" />
+  </head>
+  <body>
     <header>
-        <div class="bubble"></div>
-        <div class="container">
-          <div class="logo">
-            <a href="index.html"><img src="assets/images/nav/logo.23aa4a68.svg" alt="Logo"/></a>
-          </div>
-          <nav class="navbar">
-            <ul>
-              <li><a href="pricing.html">Pricing</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
-          </nav>
-          <div class="button">
-            <a href="#" class="red-button">Schedule a Demo</a>
-          </div>
-          <div class="burger-menu">
-            <button id="burger-toggle-btn-open">
-              <img src="/assets/images/nav/menu.5062cf20.svg" alt="open-menu">
-            </button>
-            <button id="burger-toggle-btn-close" class="hiddenNav">
-              <img src="/assets/images/nav/Group.svg" alt="close-menu">
-            </button>
-          </div>
+      <div class="bubble"></div>
+      <div class="container">
+        <div class="logo">
+          <a href="index.html"
+            ><img src="assets/images/nav/logo.23aa4a68.svg" alt="Logo"
+          /></a>
         </div>
-        <div id="navSidebar" class="hiddenNav">
-            <a href="pricing.html"></a>
-            <a href="about.html"></a>
-            <a href="contact.html"></a>
+        <nav class="navbar">
+          <ul>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="button">
+          <a href="#" class="red-button">Schedule a Demo</a>
         </div>
-      </header>
-    <h1 class="contact-header">Submit a help request and we’ll get in touch shortly.</h1>
+        <div class="burger-menu">
+          <button id="burger-toggle-btn-open">
+            <img src="/assets/images/nav/menu.5062cf20.svg" alt="open-menu" />
+          </button>
+          <button id="burger-toggle-btn-close" class="hiddenNav">
+            <img src="/assets/images/nav/Group.svg" alt="close-menu" />
+          </button>
+        </div>
+      </div>
+      <div id="navSidebar" class="hiddenNav">
+        <a href="pricing.html"></a>
+        <a href="about.html"></a>
+        <a href="contact.html"></a>
+      </div>
+    </header>
+    <h1 class="contact-header">
+      Submit a help request and we’ll get in touch shortly.
+    </h1>
     <div id="contact-form">
-        <form>
-            <input type="text" id="contact-name" name="name" placeholder="Name" pattern="[A-Za-z]{2,30}" maxlength="30" required>
-            <input type="email" id="contact-email" name="email" placeholder="Email Address" pattern="[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}" required>
-            <input type="text" id="contact-company-name" name="company-name" placeholder="Company Name" minlength="6" required>
-            <input type="text" id="contact-title" name="title" placeholder="Title" minlength="3" required>
-            <textarea id="contact-message" name="message" placeholder="Message" required></textarea>
-            <label id="checkbox-container">
-                <p>Stay up-to-date with company announcements and updates to
-                    our API</p>
-                <input type="checkbox">
-                <span id="checkmark"></span>
-            </label>
-            <input type="submit" value="Submit" id="contact-submit">
-                <div id="inputErrorNameCheck" class="hiddenError">Enter a valid name</div>
-                <div id="inputErrorEmailCheck" class="hiddenError">Enter a valid email</div>
-                <div id="inputErrorCompanyCheck" class="hiddenError">Enter a valid name</div>
-                <div id="inputErrorTitleCheck" class="hiddenError">Enter a valid title</div>
-                <div id="inputErrorName" class="hiddenError">This field can't be empty</div>
-                <div id="inputErrorEmail" class="hiddenError">This field can't be empty</div>
-                <div id="inputErrorCompany" class="hiddenError">This field can't be empty</div>
-                <div id="inputErrorTitle" class="hiddenError">This field can't be empty</div>
-                <div id="inputErrorMessage" class="hiddenError">This field can't be empty</div>
-        </form>
+      <form>
+        <input
+          type="text"
+          id="contact-name"
+          name="name"
+          placeholder="Name"
+          pattern="[A-Za-z]{2,30}"
+          maxlength="30"
+          required
+        />
+        <input
+          type="email"
+          id="contact-email"
+          name="email"
+          placeholder="Email Address"
+          pattern="[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}"
+          required
+        />
+        <input
+          type="text"
+          id="contact-company-name"
+          name="company-name"
+          placeholder="Company Name"
+          minlength="6"
+          required
+        />
+        <input
+          type="text"
+          id="contact-title"
+          name="title"
+          placeholder="Title"
+          minlength="3"
+          required
+        />
+        <textarea
+          id="contact-message"
+          name="message"
+          placeholder="Message"
+          required
+        ></textarea>
+        <label id="checkbox-container">
+          <p>
+            Stay up-to-date with company announcements and updates to our API
+          </p>
+          <input type="checkbox" />
+          <span id="checkmark"></span>
+        </label>
+        <input type="submit" value="Submit" id="contact-submit" />
+        <div id="inputErrorNameCheck" class="hiddenError">
+          Enter a valid name
+        </div>
+        <div id="inputErrorEmailCheck" class="hiddenError">
+          Enter a valid email
+        </div>
+        <div id="inputErrorCompanyCheck" class="hiddenError">
+          Enter a valid name
+        </div>
+        <div id="inputErrorTitleCheck" class="hiddenError">
+          Enter a valid title
+        </div>
+        <div id="inputErrorName" class="hiddenError">
+          This field can't be empty
+        </div>
+        <div id="inputErrorEmail" class="hiddenError">
+          This field can't be empty
+        </div>
+        <div id="inputErrorCompany" class="hiddenError">
+          This field can't be empty
+        </div>
+        <div id="inputErrorTitle" class="hiddenError">
+          This field can't be empty
+        </div>
+        <div id="inputErrorMessage" class="hiddenError">
+          This field can't be empty
+        </div>
+      </form>
     </div>
     <div id="company-container">
-    <div id="company-text">
+      <div id="company-text">
         <p>Join the thousands of innovators already building with us</p>
-    </div>
-    <div class="company-logos-grid">
+      </div>
+      <div class="company-logos-grid">
         <div class="contact-gridElement1"></div>
         <div class="contact-gridElement2"></div>
         <div class="contact-gridElement3"></div>
         <div class="contact-gridElement4"></div>
         <div class="contact-gridElement5"></div>
         <div class="contact-gridElement6"></div>
-    </div>
+      </div>
     </div>
     <script src="assets/js/formInteractions.js"></script>
-    <script src="assets/js/burgerInteraction.js"></script>    
+    <script src="assets/js/burgerInteraction.js"></script>
     <div class="header-footer">
-        <h2>READY TO START?</h2>
-        <div class="email-input">
-            <label for="email"></label>
-            <input type="email" id="email" name="email" placeholder="Enter email address">
-            <button type="button">Schedule a demo</button>
-        </div>
+      <h2>READY TO START?</h2>
+      <div class="email-input">
+        <label for="email"></label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter email address"
+        />
+        <button type="button">Schedule a demo</button>
+      </div>
     </div>
     <footer>
-        <div class="footer-logo">
-            <a class="link-home" href="index.html" onclick="return true;">
-                <img src="assets/images/additional/Group21.svg" alt="logo" />
-            </a>
-            <div class="Footer1">
-                <span><a class="link-pricing" href="pricing.html">Pricing</a></span>
-                <span><a class="link-about" href="about.html">About</a></span>
-                <span><a class="link-contact" href="contact.html">Contact</a></span>
-            </div>
+      <div class="footer-logo">
+        <a class="link-home" href="index.html" onclick="return true;">
+          <img src="assets/images/additional/Group21.svg" alt="logo" />
+        </a>
+        <div class="Footer1">
+          <span><a class="link-pricing" href="pricing.html">Pricing</a></span>
+          <span><a class="link-about" href="about.html">About</a></span>
+          <span><a class="link-contact" href="contact.html">Contact</a></span>
         </div>
-        <div class="footer-links">
-            <a class="media-fbook" href="https://www.facebook.com">
-                <img src="assets/images/shared/desktop/facebook.svg" alt="facebook">
-            </a>
-            <a class="media-tw" href="https://www.twitter.com">
-                <img src="assets//images/shared/desktop/twitter.svg" alt="twitter">
-            </a>
-            <a class="media-li" href="https://www.linkedin.com">
-                <img src="assets/images/shared/desktop/linkedin.svg" alt="linkedin">
-            </a>
-        </div>
+      </div>
+      <div class="footer-links">
+        <a class="media-fbook" href="https://www.facebook.com">
+          <img src="assets/images/shared/desktop/facebook.svg" alt="facebook" />
+        </a>
+        <a class="media-tw" href="https://www.twitter.com">
+          <img src="assets//images/shared/desktop/twitter.svg" alt="twitter" />
+        </a>
+        <a class="media-li" href="https://www.linkedin.com">
+          <img src="assets/images/shared/desktop/linkedin.svg" alt="linkedin" />
+        </a>
+      </div>
     </footer>
-</body>
+  </body>
 </html>

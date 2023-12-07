@@ -4,6 +4,7 @@
   left: 50%;
   top: -550px;
   transform: translate(-50%);
+z-index: -1;
 }
 
 .bubble {
@@ -16,7 +17,6 @@
   top: -640px;
   right: -500px;
 }
-
 
 @media only screen and (min-width: 768px) {
   .home--bubble {
