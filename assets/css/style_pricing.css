@@ -127,12 +127,6 @@ body {
     border: 1px solid var(--SanJuanBlue);
 }
 
-.pricing--cards-button:hover {
-    background-color: var(--SanJuanBlue);
-    color: var(--LinkWaterWhite);
-    cursor: pointer;
-}
-
 @media screen and (min-width: 768px) {
     .pricing--header {
         font-size: 48px;
