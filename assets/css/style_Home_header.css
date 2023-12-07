@@ -143,10 +143,10 @@ body {
 }
 
 @media only screen and (min-width:1440px) {
-    .home--header-containerhead{
-        /* margin-top: 200px;
-        margin-bottom: 76px; */
-    }
+    /* .home--header-containerhead{
+        margin-top: 200px;
+        margin-bottom: 76px;
+    } */
     .home--header-motto {
         width: 37.92;
         font-size: 37px;
