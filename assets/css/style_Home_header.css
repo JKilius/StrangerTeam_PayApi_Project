@@ -16,11 +16,6 @@ body {
 }
 
 .home--header-mobilcont {
-.home--header-mottotext {
-    font-weight: 400;
-}
-
-.home--header-mobilcont {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,8 +76,6 @@ body {
 
 .home--header-schedulebutton {
     margin-top: -3px;
-.home--header-schedulebutton {
-    margin-top: -3px;
     border-style: none;
     border-radius: 24px;
     width: 327px;
@@ -92,7 +85,6 @@ body {
     font-size: 15px;
 }
 
-.home--header-schedulebutton:hover {
 .home--header-schedulebutton:hover {
     background-color: var(--charmpink);
 
@@ -117,10 +109,7 @@ body {
 }
 
 .home--header-link {
-
-.home--header-link {
     text-decoration: none;
-    color: var(--lightsan);
     color: var(--lightsan);
     font-weight: bold;
 }
@@ -143,7 +132,6 @@ body {
         width: 73.31%;
         text-align: center;
         font-size: 24.1px;
-        font-size: 24.1px;
         font-style: normal;
         font-weight: 400;
         line-height: 56px;
@@ -158,15 +146,12 @@ body {
     }
 
     .home--header-schedulebutton {
-    .home--header-schedulebutton {
         position: absolute;
         width: 173px;
         margin-left: 56.8%;
         left: 1%;
     }
 
-    .home--header-emailinput {
-        width: 430px;
     .home--header-emailinput {
         width: 430px;
         position: relative;
@@ -196,7 +181,6 @@ body {
 
 @media only screen and (min-width:1440px) {
     .home--header-containerhead {
-    .home--header-containerhead {
         margin-top: 200px;
         margin-bottom: 76px;
     }
@@ -209,7 +193,6 @@ body {
         justify-content: flex-start;
         position: absolute;
         top: 100px;
-        top: 100px;
         inline-size: 37.91%;
         font-weight: 400;
         letter-spacing: -0.54px;
@@ -217,8 +200,6 @@ body {
         margin-top: 140px;
         line-height: 72px;
     }
-
-    .home--header-mottotext {
 
     .home--header-mottotext {
         text-align: left;
@@ -229,9 +210,6 @@ body {
         margin-right: 139px;
         justify-content: flex-end;
     }
-
-    .home--header-mobil {
-        transform: scale(1);
 
     .home--header-mobil {
         transform: scale(1);
@@ -252,13 +230,7 @@ body {
     .home--header-emailinput {
         margin-left: 93px;
         width: 445px;
-
-    .home--header-emailinput {
-        margin-left: 93px;
-        width: 445px;
     }
-
-    .home--header-contactus {
 
     .home--header-contactus {
         display: flex;
