@@ -271,6 +271,19 @@
     margin-top: 31px;
     margin-bottom: 80px;
   }
+  .partner-button:hover {
+    width: 129px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    border: 1px solid var(--LinkWaterWhite);
+    background-color: var(--LinkWaterWhite);
+    display: inline-block;
+    line-height: 46px;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 80px;
+  }
 
   .partner-large {
     color: var(--LinkWaterWhite);
