@@ -53,6 +53,10 @@ footer {
     filter: invert(62%) sepia(40%) saturate(5056%) hue-rotate(316deg) brightness(95%) contrast(85%);
 }
 
+#email{
+    cursor: pointer;
+}
+
 @media (min-width: 1440px) {
     .footer-logo {
         margin-left: 50px;

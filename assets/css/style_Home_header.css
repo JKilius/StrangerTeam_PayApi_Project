@@ -62,7 +62,7 @@ body {
     border-radius: 24px;
     width: 327px;
     height: 48px;
-
+    cursor: pointer;
 }
 
 .home--header-emailinput::placeholder {
@@ -87,6 +87,7 @@ body {
     color: white;
     font-size: 15px;
     margin-top: -3px;
+    cursor: pointer;
 }
 
 .home--header-schedulebutton:hover {

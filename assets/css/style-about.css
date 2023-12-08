@@ -7,8 +7,8 @@ body {
     margin: 0;
 }
 
-main {
-    padding-top: 48px;
+.about--main {
+    padding-top: 5px;
     padding-bottom: 48px;
 }
 
@@ -135,8 +135,8 @@ main {
 }
 
 @media screen and (min-width:768px) {
-    main {
-        padding-top: 80px;
+    .about--main {
+        padding-top: 35px;
         padding-bottom: 72px;
     }
 
@@ -254,8 +254,7 @@ main {
 }
 
 @media screen and (min-width: 1440px) {
-    main {
-        padding-top: 82px;
+    .about--main {
         padding-bottom: 100px;
     }
 
