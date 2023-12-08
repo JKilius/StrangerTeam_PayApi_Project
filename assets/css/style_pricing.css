@@ -16,6 +16,7 @@ body {
     line-height: 36px;
     letter-spacing: -0.246px;
     margin-bottom: 48px;
+    min-width: 375px;
 }
 
 .pricing--cards {

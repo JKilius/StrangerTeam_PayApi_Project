@@ -21,6 +21,11 @@
     text-decoration: none;
 }
 
+.partners-both{
+  overflow: hidden;
+  position: relative;
+}
+
 @media (min-width: 1440px) {
 
   .partner-button {
@@ -33,6 +38,7 @@
     line-height: 46px;
     text-align: center;
     margin-top: 32px;
+    margin-bottom: 95px;
   }
 
   .partner-button:hover {

@@ -52,6 +52,7 @@
 
   .red-button {
     position: relative;
+    z-index: 2;
   }
 
   .red-button a {
@@ -217,6 +218,10 @@
     background-color: rgba(27, 38, 47, 1);
   }
 
+  .burger-menu{
+    z-index: 2;
+  }
+  
   .hiddenNav {
     display: none;
   }

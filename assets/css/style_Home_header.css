@@ -30,7 +30,6 @@ body {
     width:200px; 
     height: 320px;
     display: block;
-
 }
 
 .home--header-motto {
@@ -224,6 +223,7 @@ body {
     .home--header-mobil {
     height: 660px;
     width: 420px;
+    z-index: 2;
     }
 
     .home--header-buttons {
