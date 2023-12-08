@@ -11,6 +11,13 @@ body {
     background-color: #f0f4fc;
 }
 
+@supports (-moz-appearance: none) {
+    .home--header-emailinput {
+      margin-bottom: 19px;
+      margin-top: -2px;
+    }
+}
+
 .home--header-mottotext {
     font-weight: 400;
 }
@@ -57,6 +64,7 @@ body {
 
 .home--header-emailinput {
     margin-bottom: 1px;
+    margin-top: 10px;
     padding-left: 27px;
     border-style: none;
     border-radius: 24px;
