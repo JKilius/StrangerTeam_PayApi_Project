@@ -41,6 +41,12 @@
     margin-bottom: 95px;
   }
 
+  .partners-both{
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 50px;
+  }
+  
   .partner-button:hover {
     width: 129px;
     height: 48px;

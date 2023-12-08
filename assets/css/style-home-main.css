@@ -30,26 +30,40 @@
     display: inline-block;
     position: relative;
     right: 80px;
+    margin-top: 95px;
+    margin-left: -5px;
   }
   .home-main-two-phones {
     max-width: 100%;
     display: inline-block;
     position: relative;
     left: 120px;
+    margin-top: -10px;
+    margin-right: 95px;
   }
 
   .home-text-1 {
     max-width: 445px;
     display: inline-block;
     position: relative;
-    right: 20px;
+    right: 65px;
+    margin-top: 42px;
   }
+.home-header-text{
+  margin-top: 25px;
+}
 
   .home-text-2 {
     max-width: 445px;
     display: inline-block;
     position: relative;
-    left: 30px;
+    left: 75px;
+    margin-top: -60px;
+  }
+
+  .home-header-textA{
+    margin-top: 25px;
+    line-height: 28px;
   }
   .home-item-1 {
     display: flex;
@@ -65,7 +79,79 @@
   }
 }
 
-@media (min-width: 350px) and (max-width: 1439px) {
+@media (min-width: 768px) and (max-width: 1439px) {
+  .home-header {
+    color: #36536b;
+    text-align: center;
+    font-family: DM Serif Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: 36px;
+    letter-spacing: -0.277px;
+    margin-top: -35px;
+    margin-left: -5px;
+  }
+
+  .home-header-text {
+    color: #6c8294;
+    text-align: center;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 35px;
+    margin-left: -3px;
+  }
+
+  .home-main-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .home-main-terminal {
+    max-width: 70%;
+    display: block;
+    margin: auto;
+    margin-left: 140px;
+    margin-top: 45px;
+  }
+
+  .home-main-two-phones {
+    max-width: 60%;
+    display: block;
+    margin: auto;
+    margin-left: 168px;
+    margin-top: 65px;
+  }
+
+  .home-text-1 {
+    max-width: 573px;
+    margin: auto;
+  }
+
+  .home-text-2 {
+    max-width: 573px;
+    margin: auto;
+    margin-top: 28px;
+    margin-left: 100px;
+  }
+
+  .home-header-textA{
+    color: #6c8294;
+    text-align: center;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 33px;
+    margin-left: -9px;
+  }
+}
+
+@media (max-width: 767px) {
   .home-header {
     color: #36536b;
     text-align: center;
@@ -99,23 +185,31 @@
     width: 450px;
     height: 325px;
     display: block;
-    margin-left: -15px;
-    margin-top:30px;
+    margin: auto;
+    margin-left: -18px;
+    margin-top: 45px;
   }
 
   .home-main-two-phones {
     width: 430px;
     height: 380px;
     display: block;
+    margin: auto;
+    margin-top: 48px;
+    margin-left: -9px;
   }
 
   .home-text-1 {
-    max-width: 573px;
+    max-width: 329px;
     margin: auto;
+    margin-left: 15px;
+    margin-top: -30px;
   }
 
   .home-text-2 {
-    max-width: 573px;
+    max-width: 329px;
     margin: auto;
+    margin-top: 10px;
+    margin-left: 13px;
   }
 }
