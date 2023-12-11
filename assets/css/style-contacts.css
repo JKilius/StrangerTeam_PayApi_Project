@@ -14,7 +14,7 @@
         font-weight: 400;
         line-height: 56px;
         letter-spacing: -0.431px;
-        margin-top: 47px;
+        margin-top: 35px;
         margin-left: 165px;
         width: 730px;
     }
@@ -200,12 +200,12 @@
     #company-container {
         position: absolute;
         margin-left: 565px;
-        margin-top: -641px;
+        margin-top: -461px;
         margin-right: 109px;
     }
 
     #contact-form {
-        padding-bottom: 208px;
+        padding-bottom: 30px;
     }
 
     .contact-gridElement1 {
@@ -310,6 +310,15 @@
         background-color: rgba(238, 243, 248, 255);
     }
 
+    .contact-form-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* margin-right: 10%; */
+        align-items: center;
+        margin-bottom: 60px;
+    }
+
     .contact-header {
         color: #36536B;
         text-align: center;
@@ -319,9 +328,11 @@
         font-weight: 400;
         line-height: 56px;
         letter-spacing: -0.369px;
-        margin-top: 104px;
-        margin-left: 108px;
+        /* margin-top: 104px; */
+        /* margin-left: 108px; */
         width: 543px;
+        margin: auto;
+        margin-top: 37px;
     }
 
     #contact-name::placeholder,
@@ -376,15 +387,15 @@
     #contact-company-name,
     #contact-message {
         margin-bottom: 27px;
-        margin-left: 161px;
+        /* margin-left: 161px; */
     }
     #contact-email{
         margin-bottom: 29px;
-        margin-left: 161px;
+        /* margin-left: 161px; */
     }
     #contact-title{
         margin-bottom: 24px;
-        margin-left: 161px;
+        /* margin-left: 161px; */
     }
 
     #checkbox-container {
@@ -402,7 +413,7 @@
         width: 400px;
         height: 50px;
         display: inline-block;
-        margin-left: 161px;
+        /* margin-left: 161px; */
         margin-bottom: 13px;
         padding-left: 51px;
         margin-top: 7px;
@@ -472,7 +483,7 @@
         padding-top: 15px;
         padding-bottom: 13px;
         background-color: rgba(238, 243, 248, 255);
-        margin-left: 163px;
+        /* margin-left: 163px; */
     }
 
     #contact-submit:hover {
@@ -491,7 +502,7 @@
         line-height: 32px;
         letter-spacing: -0.185px;
         width: 445px;
-        margin-left: 180px;
+        margin: auto;
         margin-top: 64px;
         opacity: 0.75;
     }
@@ -500,7 +511,7 @@
         display: grid;
         grid-template-columns: 192px 207px 185px;
         grid-template-rows: 62px 62px;
-        margin-left: 114px;
+        margin-left: 45px;
         margin-top: 47px;
     }
 
@@ -609,6 +620,15 @@
         background-color: rgba(238, 243, 248, 255);
     }
 
+    .contact-form-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 6%;
+        align-items: center;
+        margin-bottom: 78px;
+    }
+
     .contact-header {
         color: #36536B;
         text-align: center;
@@ -618,9 +638,9 @@
         font-weight: 400;
         line-height: 36px;
         letter-spacing: -0.246px;
-        margin-top: 49px;
+        margin-top: 5px;
         margin-left: 24px;
-        margin-right: 24px;
+        /* margin-right: 24px; */
         width: 327px;
         height: 116px;
         flex-shrink: 0;

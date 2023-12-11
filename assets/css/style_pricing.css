@@ -6,6 +6,11 @@ body {
     background-color: #EDF3F8;
 }
 
+.pricing--main{
+    padding-top: 5px;
+    padding-bottom: 25px;
+}
+
 .pricing--header {
     color: var(--SanJuanBlue);
     text-align: center;
@@ -129,6 +134,11 @@ body {
 }
 
 @media screen and (min-width: 768px) {
+    .pricing--main{
+        padding-top: 35px;
+        padding-bottom: 30px;
+    }
+
     .pricing--header {
         font-size: 48px;
         line-height: 56px;
@@ -237,6 +247,7 @@ body {
 
     .pricing--cards-btn {
         text-align: start;
+        padding-bottom: 5px;
     }
 
     .pricing--cards ul {

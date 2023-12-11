@@ -50,6 +50,10 @@ footer {
     brightness(95%) contrast(85%);
 }
 
+#email{
+    cursor: pointer;
+}
+
 @media (min-width: 1440px) {
   .footer-logo {
     margin-left: 141.5px;

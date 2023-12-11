@@ -7,9 +7,9 @@ body {
     margin: 0;
 }
 
-main {
-    padding-top: 48px;
-    padding-bottom: 48px;
+.about--main {
+    padding-top: 5px;
+    padding-bottom: 35px;
 }
 
 .about-container {
@@ -135,9 +135,9 @@ main {
 }
 
 @media screen and (min-width:768px) {
-    main {
-        padding-top: 80px;
-        padding-bottom: 72px;
+    .about--main {
+        padding-top: 35px;
+        padding-bottom: 40px;
     }
 
     .about-header {
@@ -254,9 +254,8 @@ main {
 }
 
 @media screen and (min-width: 1440px) {
-    main {
-        padding-top: 82px;
-        padding-bottom: 100px;
+    .about--main {
+        padding-bottom: 35px;
     }
 
     .about-header {
